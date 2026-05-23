@@ -1,5 +1,0 @@
-set mat_shininess 15.000000
-set mat_specular 0.60000 0.60000 0.60000
-set mat_doublesided 0
-set mat_normalmap /models/props/general_props/trees/palmtree/palmtreeabark_normalmap.tga
-set mat_heightmapScale 1.000000

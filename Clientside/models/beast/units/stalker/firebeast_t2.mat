@@ -1,6 +1,0 @@
-set mat_shininess 40.000000
-set mat_specular 0.20 0.20 0.20
-set mat_doublesided 0
-set mat_terrain_overblend 1.000000
-set mat_normalmap /models/beast/units/stalker/firebeast_t2_normalmap.tga
-set mat_glossmap /models/beast/units/scavenger/firebeast_t2_gm.tga

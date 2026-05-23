@@ -1,7 +1,0 @@
-set mat_shininess 10.000000
-set mat_specular 1.000000 1.000000 1.000000
-set mat_doublesided 0
-set mat_normalmap /models/beast/weapons/melee/melee_upgrade/beastaxe_normalmap.tga
-set mat_glossmap /models/beast/weapons/melee/melee_upgrade/beastaxe_gm.tga
-//set mat_heightmapScale 2
-set mat_terrain_overblend 1

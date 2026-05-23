@@ -1,4 +1,0 @@
-set mat_doublesided 1
-set mat_shininess 40.000000
-set mat_specular 5.000000 5.000000 5.000000
-set mat_terrain_overblend 1

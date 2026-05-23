@@ -1,7 +1,0 @@
-set mat_shininess 0.800000
-set mat_specular 0.460000 0.430000 0.410000
-set mat_doublesided 0
-set mat_terrain_overblend 1.00000
-set mat_normalmap /models/props/xr_props/aztec/templeground_normalmap.tga
-set mat_parallaxBias -0.010000
-set mat_parallaxScale 0.025000

@@ -1,6 +1,0 @@
-set mat_shininess 40.000000
-set mat_specular 30.000000 30.000000 30.000000
-set mat_doublesided 0
-set mat_terrain_overblend 1
-set mat_normalmap /models/unique/clans/fox/FoxShield_normalmap.s2g
-set mat_glossmap /models/unique/clans/fox/FoxShield_gm.s2g

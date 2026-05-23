@@ -1,7 +1,0 @@
-skinName default
-
-skinref banner /models/savageheroes/props/banner/banner_diff.tga
-skinref Stuff /models/savageheroes/props/banner/b01.tga
-//skinref Eyes /models/savageheroes/units/ophelia/1_nl_ophelia_fglow0000.tga
-skinref Eyes /models/savageheroes/units/ophelia/null.s2g
-skinref Object001 /models/savageheroes/units/ophelia/null.s2g

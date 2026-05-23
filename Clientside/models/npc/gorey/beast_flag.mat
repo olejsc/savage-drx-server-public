@@ -1,6 +1,0 @@
-set mat_doublesided 1
-set mat_shininess 10.000000
-set mat_specular 1.00000 1.00000 1.00000
-set mat_normalmap /models/beast/squads/beast_flag_normalmap.tga
-set mat_glossmap /models/beast/squads/beast_flag_gm.tga
-set mat_heightmapScale 1.000000

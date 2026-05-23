@@ -1,5 +1,0 @@
-set mat_shininess 5.000000
-set mat_specular 0.200000 0.200000 0.100000
-set mat_doublesided 0
-set mat_terrain_overblend 1.000000
-set mat_normalmap /models/props/xr_props/aztec/t_fountain_normalmap.tga

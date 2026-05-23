@@ -1,7 +1,0 @@
-set mat_shininess 15.000000
-set mat_specular 5.000000 5.000000 5.000000
-set mat_doublesided 1
-set mat_normalmap /models/unique/players/daemon/jere_shield_normalmap.s2g
-set mat_glossmap /models/unique/players/daemon/jere_shield_gm.s2g
-set mat_terrain_overblend 1
-

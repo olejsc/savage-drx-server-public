@@ -1,7 +1,0 @@
-skinName default
-skinRef Plane01 /models/unique/themes/pyro/1_nl_flame_b_0000.tga
-skinRef Plane02 /models/unique/themes/pyro/1_nl_flame_b_0000.tga
-skinRef Cylinder01 /models/unique/themes/pyro/pyro_pads.tga
-skinRef Cylinder02 /models/unique/themes/pyro/pyro_pads.tga
-skinRef LeftPad /models/unique/themes/pyro/pyro_pads.tga
-skinRef RightPad /models/unique/themes/pyro/pyro_pads.tga

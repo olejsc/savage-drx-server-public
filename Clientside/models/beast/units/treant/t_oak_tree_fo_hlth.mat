@@ -1,6 +1,0 @@
-set mat_shininess 0.500000
-set mat_specular 0.20 0.20 0.20
-set mat_doublesided 0
-set mat_terrain_overblend 0.2000000
-set mat_normalmap /models/beast/units/treant/oak_tree_foliage_NRM.s2g
-

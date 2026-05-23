@@ -1,6 +1,0 @@
-skinName default
-
-skinRef default models/props/samurai_props/textures/t_wood2.s2g
-skinRef bell models/props/samurai_props/textures/t_patina.s2g
-skinRef ropes models/props/samurai_props/textures/t_rope.s2g
-skinRef roof models/props/samurai_props/textures/t_slates.s2g

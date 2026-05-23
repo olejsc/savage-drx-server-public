@@ -1,7 +1,0 @@
-set mat_shininess 10.000000
-set mat_specular 5.000000 5.000000 5.000000
-set mat_doublesided 0
-set mat_normalmap /models/unique/clans/evo/black/penta/penta_normalmap.png
-set mat_glossmap /models/unique/clans/evo/black/penta/penta_gm.s2g
-set mat_terrain_overblend 0
-

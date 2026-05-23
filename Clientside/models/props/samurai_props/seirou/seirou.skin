@@ -1,7 +1,0 @@
-skinName default
-
-skinRef seirou models/props/samurai_props/textures/t_wood2.s2g
-skinRef landing_01 models/props/samurai_props/textures/t_wood2.s2g
-skinRef landing_02 models/props/samurai_props/textures/t_wood2.s2g
-skinRef landing_03 models/props/samurai_props/textures/t_wood2.s2g
-skinRef Object02 models/props/samurai_props/textures/t_wood_planks.s2g

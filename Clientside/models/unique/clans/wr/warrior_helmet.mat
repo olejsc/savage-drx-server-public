@@ -1,7 +1,0 @@
-set mat_shininess 25.000000
-set mat_specular 5.000000 5.000000 5.000000
-set mat_doublesided 0
-set mat_terrain_overblend 1.000000
-set mat_normalmap /models/unique/clans/wr/warrior_shield_normalmap.s2g
-set mat_glossmap /models/unique/clans/wr/warrior_shield_gm.s2g
-set mat_heightmapScale 1.500000

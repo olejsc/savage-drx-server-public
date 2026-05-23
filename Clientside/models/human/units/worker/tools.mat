@@ -1,7 +1,0 @@
-set mat_shininess 5.000000
-set mat_specular 0.200000 0.2000000 0.2000000
-set mat_doubleSided 0
-set mat_terrain_overblend 0
-set mat_normalmap /models/human/units/worker/tools_NORM.tga
-set mat_glossmap /models/human/units/worker/tools_gm.tga
-

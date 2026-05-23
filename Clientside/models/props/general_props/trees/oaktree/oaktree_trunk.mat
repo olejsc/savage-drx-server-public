@@ -1,6 +1,0 @@
-set mat_shininess 1.000000
-set mat_specular 0.10000 0.10000 0.10000
-set mat_doublesided 0
-set mat_normalmap /models/props/general_props/trees/oaktree/oaktree_trunk_normalmap.tga
-set mat_glossmap /models/props/general_props/trees/oaktree/oaktree_trunk_gm.tga
-set mat_heightmapScale 0.500000

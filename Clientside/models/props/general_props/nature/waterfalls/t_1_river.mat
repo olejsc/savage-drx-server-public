@@ -1,6 +1,0 @@
-set mat_vfunc linear_pan
-set mat_vspeed -.05
-set mat_doubleSided 0
-set mat_depthWrite 0
-set mat_normalmap /models/props/general_props/nature/waterfalls/t_river_normalmap.tga
-set mat_shader fresnel

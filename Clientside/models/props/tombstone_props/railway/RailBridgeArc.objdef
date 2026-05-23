@@ -1,7 +1,0 @@
-beginObjdef blocker RailBridgeArc
-  obj_editorCategory Tombstone_Railway
-  obj_model RailBridgeArc.model
-  obj_skin default
-  obj_editorScaleRangeLo 1.000000
-  obj_editorScaleRangeHi 1.000000
-endObjdef RailBridgeArc

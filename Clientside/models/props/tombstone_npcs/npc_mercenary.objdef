@@ -1,8 +1,0 @@
-beginObjdef blocker npc_mercenary
-  obj_editorCategory Tombstone_NPCs
-  obj_model /models/npc/mercenary/mercenary.model
-  obj_skin default
-  obj_editorScaleRangeLo 1.9
-  obj_editorScaleRangeHi 1.9
-  obj_reference 1
-endObjdef npc_mercenary

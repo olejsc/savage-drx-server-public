@@ -1,3 +1,0 @@
-@spawn
-!die self
-

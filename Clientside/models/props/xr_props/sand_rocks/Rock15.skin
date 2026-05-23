@@ -1,8 +1,0 @@
-skinName sand_rock_15_1
-skinRef Rock15 "models/props/xr_props/sand_rocks/Rock15_diffuse.tga"
-
-skinName sand_rock_15_2
-skinRef Rock15 "models/props/xr_props/sand_rocks/Rock15_diffuse2.tga"
-
-skinName sand_rock_15_3
-skinRef Rock15 "models/props/xr_props/sand_rocks/Rock15_diffuse3.tga"

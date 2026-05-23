@@ -1,3 +1,0 @@
-makeanim idle chicken_projectile.clip 0 0 60 1
-
-//animevent idle 0 "randsound 5 /sound/physics/grab_throw"

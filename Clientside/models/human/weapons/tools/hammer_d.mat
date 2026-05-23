@@ -1,6 +1,0 @@
-set mat_shininess 5.000000
-set mat_specular 1.000000 1.000000 1.000000
-set mat_doublesided 1
-set mat_normalmap /models/human/weapons/tools/hammer_normalmap.tga
-set mat_glossmap /models/human/weapons/tools/hammer_gm.tga
-set mat_heightmapScale 2.000000

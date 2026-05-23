@@ -1,5 +1,0 @@
-set mat_shininess 10.000000
-set mat_specular 0.50000 0.50000 0.500000
-set mat_doublesided 0
-set mat_terrain_overblend 0.5
-set mat_normalmap /models/new_drops/health_pack_normal.tga

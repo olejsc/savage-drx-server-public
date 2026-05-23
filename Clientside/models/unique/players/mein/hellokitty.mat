@@ -1,7 +1,0 @@
-set mat_shininess 25.000000
-set mat_specular 1.000000 1.000000 1.000000
-set mat_doublesided 0
-set mat_terrain_overblend 1
-set mat_normalmap /models/unique/players/mein/hellokitty_normalmap.s2g
-set mat_glossmap /models/unique/players/mein/hellokitty_gm.s2g
-set mat_heightmapScale 1.000000

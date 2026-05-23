@@ -1,6 +1,0 @@
-set mat_doublesided 0
-set mat_shininess 1.000000
-set mat_specular .5000000 .5000000 .5000000
-set mat_terrain_overblend 0
-set mat_normalmap /models/human/units/transport/ropes_NORM.s2g
-set mat_glossmap /models/human/units/transport/ropes_GM.s2g

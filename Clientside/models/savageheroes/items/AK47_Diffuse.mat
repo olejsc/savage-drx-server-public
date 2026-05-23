@@ -1,6 +1,0 @@
-set mat_shininess 5.000000
-set mat_specular 0.2000 0.2000 0.2000
-set mat_doubleSided 1
-set mat_terrain_overblend 0.000000
-set mat_normalmap /models/savageheroes/items/AK47_Diffuse_normalmap.s2g
-set mat_glossmap /models/savageheroes/items/AK47_Diffuse_gm.tga

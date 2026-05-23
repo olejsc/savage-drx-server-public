@@ -1,6 +1,0 @@
-set mat_doublesided 1
-set mat_shininess 5.000000
-set mat_specular 1.00000 1.00000 1.00000
-set mat_normalmap /models/human/squads/flags_normalmap.tga
-set mat_glossmap /models/human/squads/flags_gm.tga
-set mat_heightmapScale 1.000000

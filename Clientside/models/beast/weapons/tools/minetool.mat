@@ -1,6 +1,0 @@
-set mat_shininess 15.000000
-set mat_specular 1.000000 1.000000 1.000000
-set mat_doublesided 0
-set mat_terrain_overblend 0.200000
-set mat_normalmap /models/beast/weapons/tools/minetool_normal.tga
-set mat_glossmap /models/beast/weapons/tools/minetool_gloss.tga
