@@ -1,0 +1,127 @@
+objSet objclass "unit"
+objSet description "Scavenger"
+objSet race "beast"
+objSet model "/models/beast/units/scavenger/character.model"
+objSet scale 0.900000
+objSet voiceMenu "beast_player_male"
+objSet icon "/models/beast/units/scavenger/icon"
+objSet tooltip "A light beast warrior of canine ancestry, wielding the bones of fallen prey"
+objSet gridmenu "/gridmenus/beast/layout_player.cfg"
+objSet proximitySound "default"
+objSet needBasePoints 1
+objSet alwaysAvailable 1
+objSet techType "NULL"
+objSet rightMeleeModel "/models/beast/weapons/melee/boneaxe/boneaxe.model"
+objSet leftMeleeModel "/models/beast/weapons/melee/boneaxe/boneaxe.model"
+objSet unitpierce 1.500000
+objSet bldpierce 0.750000
+objSet siegepierce 0.700000
+objSet researchTime 100
+objSet footstepType "light_b"
+objSet blockPower 0.750000
+objSet speed 1.750000
+objSet viewHeight 25.000000
+objSet distOffset 15
+objSet maxCarry stone 25
+objSet maxCarry gold 25
+objSet bmin_x -6.000000
+objSet bmin_y -6.000000
+objSet bmax_x 6.000000
+objSet bmax_y 6.000000
+objSet bmax_z 25.000000
+objSet killGoldReward 250
+objSet respawnTime 10000.000000
+objSet repairRate 25
+objSet buildRate 150
+objSet healAmount 2
+objSet healRate 5000
+objSet maxMana 100
+objSet revivable 1
+objSet playerCost 0
+objSet cloakFadeIn 0.200000
+objSet cloakFadeOut 0.600000
+objSet cloakShader "/textures/effects/skins/t_camo.tga"
+objSet attackSuicideDelay 500.000000 1000.000000
+objSet attackSuicideRange 30.000000 60.000000
+objSet dodgeDistance 30.000000 60.000000
+objSet aggressionRange 0.000000 0.000000
+objSet aggressionInterval 500.000000 1000.000000
+objSet packSize 0 16
+objSet stampedeSlowdownDistance 0 138215392
+objSet fullHealth 250
+objset forceInventory0 "beast_rabid"
+objset forceInventory2 "beast_stamina_boost"
+objset forceInventory4 "beast_snare"
+objSet allowInventory0 -none -weapon -building -unit -item -upgrade +melee 
+objSet allowInventory1 -none +weapon -building -unit -item -upgrade -melee 
+objSet allowInventory2 -none -weapon -building -unit +item -upgrade -melee 
+objSet allowInventory3 -none -weapon -building -unit +item -upgrade -melee 
+objSet allowInventory4 -none -weapon -building -unit +item -upgrade -melee 
+objSet backbone "bip01 spine2"
+objSet woundedEffect "player_scavenger_wounded"
+objSet resurrectedEffect "shaman_res"
+objSet dropoffEffect "depositresources"
+objSet levelUpEffect "beast_levelup"
+objSet spawnEffect "beast_respawn"
+objSet deathEffect "player_scavenger_death"
+objSet mineEffect "mineresources"
+objSet dropoffEffect "depositresources"
+objSet resourceFullEffect "resourcesfull"
+objSet goodiePickupEffect "goodiebag_pickup"
+objSet jumpLandEffect "beast_light_jumpland"
+objSet jumpEffect "player_scavenger_jump"
+objSet idleSound "/sound/beast/units/scavenger/idle.wav"
+
+//Attacks:
+atkEdit melee_1
+atkSet time 767
+atkSet impact 167 350
+atkSet flurry 300
+atkSet flurryTime 367
+atkSet damage 80
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit melee_2
+atkSet time 867
+atkSet impact 200 400
+atkSet flurry 267
+atkSet flurryTime 467
+atkSet damage 80
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit melee_3
+atkSet time 800
+atkSet impact 200 400
+atkSet flurry 267
+atkSet flurryTime 367
+atkSet damage 80
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit melee_4
+atkSet time 867
+atkSet impact 200 400
+atkSet damage 80
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit alt_melee_1
+atkSet damage 20
+
+atkEdit alt_melee_2
+atkSet damage 20
+
+atkEdit alt_melee_3
+atkSet damage 20
+
+atkEdit alt_melee_4
+atkSet damage 20
+
+atkEdit melee_charge
+atkSet restTime 0 0
+
+atkEdit melee_release
+atkSet restTime 0 0
+

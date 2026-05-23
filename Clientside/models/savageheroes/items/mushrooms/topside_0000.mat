@@ -1,0 +1,6 @@
+set mat_shininess 5.000000
+set mat_specular 0.2000 0.2000 0.2000
+set mat_doubleSided 0
+set mat_terrain_overblend 0.000000
+set mat_normalmap /models/savageheroes/items/mushrooms/toopside_0000_normalmap.s2g
+//set mat_glossmap /models/savageheroes/units/creep_archer/Archer_gm.tga

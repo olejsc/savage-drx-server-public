@@ -1,0 +1,24 @@
+objSet objclass "building"
+objSet description "spawn point"
+objSet race "race0"
+objSet model "/models/mine_flag/mine_flag.model"
+objSet skin "default"
+objSet mapIcon "/gui/standard/small_flag.tga"
+objSet tooltip "info 129"
+objSet selectionSound "/sound/generic/mine.wav"
+objSet gridmenu "/gridmenus/layout_default.cfg"
+objSet proximityMessage "TIP: Attack post to claim this spawn point"
+objSet proximitySound "default"
+objSet proximity 100.000000
+objSet techType "NULL"
+objSet viewHeight 25.000000
+objSet fullHealth 100000
+objSet radiusState "state0"
+objSet backbone "bip01 spine2"
+objSet isClaimable 1
+objSet mineType "stone"
+objSet mineAmount 12000
+objSet spawnFrom 1
+objSet forcedRadiusState "state0"
+objSet insideState "state0"
+objSet isVulnerable 0

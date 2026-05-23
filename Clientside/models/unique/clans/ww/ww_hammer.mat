@@ -1,0 +1,6 @@
+set mat_shininess 5.000000
+set mat_specular 2.000000 2.000000 2.000000
+set mat_doublesided 0
+set mat_normalmap /models/unique/clans/ww/ww_hammer_normalmap.s2g
+set mat_glossmap /models/unique/clans/ww/ww_hammer_gm.s2g
+set mat_terrain_overblend 1

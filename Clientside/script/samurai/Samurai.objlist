@@ -1,0 +1,167 @@
+
+/////////////////////////////////////
+//human
+//
+
+//tech buildings
+//
+objload human_castle
+objload human_castle2
+objload human_castle3
+
+objload human_blacksmith
+objload human_laboratory
+objload human_stable
+objload human_trade
+
+objload human_shrine_heal
+objload human_shrine_wind
+objload human_shrine_war
+
+
+//defense buildings
+//
+objload human_barracks
+objload human_barricade
+objload human_sentry_tower
+objload human_guard_tower
+objload human_guard_tower_weapon
+objload human_fire_tower
+objload human_fire_tower_weapon
+
+
+//commander powers
+//
+objload human_blessing_heal
+objload human_blessing_wind
+objload human_blessing_war
+
+
+//items
+//
+objload human_medkit
+objload human_shaken
+objload human_smokebomb
+objload human_spyglass
+
+objload human_ammo_pack
+objload human_caltrops
+objload human_grenade
+objload human_explosives
+
+
+//units
+//
+objload human_peasant
+
+//ranged units
+objload human_kyudoist
+objload human_archer
+objload human_musketeer
+
+//sword units
+objload human_samurai
+objload human_samurai_human_katana
+objload human_samurai_human_nodachi
+objload human_samurai_human_tachi
+
+objload human_kengou
+objload human_kengou_human_katana
+objload human_kengou_human_nodachi
+objload human_kengou_human_tachi
+
+objload human_kensai
+objload human_kensai_human_katana
+objload human_kensai_human_nodachi
+objload human_kensai_human_tachi
+
+//pole units
+objload human_ashigaru
+objload human_ashigaru_human_bo
+objload human_ashigaru_human_yari
+objload human_ashigaru_human_naginata
+
+objload human_yarisamurai
+objload human_yarisamurai_human_bo
+objload human_yarisamurai_human_yari
+objload human_yarisamurai_human_naginata
+
+objload human_sohei
+objload human_sohei_human_bo
+objload human_sohei_human_yari
+objload human_sohei_human_naginata
+
+//cavalry & siege units
+objload human_cavalry_yari
+objload human_ram
+objload human_cannon
+
+//weapons
+objload human_bow
+objload human_katana
+objload human_bo
+
+objload human_yumi
+objload human_nodachi
+objload human_yari
+
+objload human_musket
+objload human_tachi
+objload human_naginata
+
+objload human_archer_katana
+objload human_cavalry_yari_melee
+objload human_cavalry_yari_ranged
+objload human_ram_weapon
+objload human_ram_spikes
+objload human_cannon_weapon
+
+
+/////////////////////////////////////
+//non-race-specific
+//
+
+//mines
+//
+objload gold_mine
+objload redstone_mine
+
+
+//npc
+//
+objload npc_ronin
+objload npc_macaque
+objload npc_panda
+
+
+//spawnpoints
+//
+objload spawnflag
+
+
+// dynamic props
+objload pot_explode
+objload pot_tumble
+objload ruins_frontgate
+objload wall_prop
+objload barricade
+
+
+// physics engine props
+objload dyn_boulder
+objload dyn_column
+objload dyn_ladder
+objload dyn_plank_short
+objload dyn_plank_long
+objload dyn_wood_panel
+objload dyn_barrel
+objload dyn_crate
+objload dyn_crate_box_plain
+objload dyn_crate_open_peaches
+objload dyn_crate_open_plain
+objload dyn_crate_rect_plain
+
+
+//goodie bag!
+objload goodiebag
+objload ammo_box

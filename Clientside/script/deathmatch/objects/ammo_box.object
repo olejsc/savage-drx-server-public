@@ -1,0 +1,27 @@
+objSet objclass "item"
+objSet description "ammo"
+objSet race "race0"
+objSet drawTeamIcon 0
+objSet drawName 0
+objSet drawHealth 0
+objSet model "/models/ammo_box/ammo_box.model"
+objSet handEffect ""
+objSet projectileEffect ""
+objSet tooltip "info 135"
+objSet proximitySound "default"
+objSet techType "NULL"
+objSet ammoName "ammo"
+objSet twangTime 0.200000
+objSet researchTime 25000
+objSet attachBone "_boneRangedR"
+objSet attachBone2 "_boneRangedR"
+objSet causesMeleeState "state0"
+objSet fullHealth 0
+objSet backbone "bip01 spine2"
+objSet giveAmmo 1
+objSet maxHold 3
+objSet delayEffect ""
+objSet activeEffect ""
+objSet isActivated 1
+objSet isSelectable 0
+objSet spawnEffect "goodiebag_spawn"

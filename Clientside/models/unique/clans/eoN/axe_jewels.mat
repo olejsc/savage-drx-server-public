@@ -1,0 +1,7 @@
+set mat_shininess 25.000000
+set mat_specular 9.000000 9.000000 9.000000
+set mat_doublesided 0
+set mat_normalmap /models/unique/clans/eoN/axe_jewels_normalmap.s2g
+set mat_glossmap /models/unique/clans/eoN/axe_jewels_gm.s2g
+set mat_terrain_overblend 0
+

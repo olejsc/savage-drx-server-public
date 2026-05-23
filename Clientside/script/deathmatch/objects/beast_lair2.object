@@ -1,0 +1,42 @@
+objSet objclass "building"
+objSet description "Lair Level 2"
+objSet race "beast"
+objSet model "/models/beast/buildings/lair.model"
+objSet icon "/models/beast/buildings/icons/lair"
+objSet mapIcon "/models/beast/buildings/icons/map_lair.tga"
+objSet tooltip "Upgrade Lair"
+objSet selectionSound "/sound/beast/buildings/stronghold.wav"
+objSet gridmenu "/gridmenus/beast/layout_lair.cfg"
+objSet proximityMessage "TIP: Press USE (Default E) to enter Lair"
+objSet proximitySound "default"
+objSet proximity 50.000000
+objSet builder1 "beast_lair"
+objSet requirement1 "beast_nexus"
+objSet needBasePoints 1
+objSet basePointValue 2
+objSet techType "NULL"
+objSet cost stone 750
+objSet researchTime 80000
+objSet viewHeight 25.000000
+objSet fullHealth 38000
+objSet radiusState "state0"
+objSet backbone "bip01 spine2"
+objSet mineType "stone"
+objSet store stone 50000
+objSet store gold 50000
+objSet dropoff 1
+objSet commandCenter 1
+objSet spawnFrom 1
+objSet canEnter 1
+objSet healthStage1 75
+objSet healthStage3 25
+objSet healthStage1Effect "fire_large"
+objSet healthStage2Effect "fire_large"
+objSet healthStage3Effect "fire_large"
+objSet healthStage1Period 120 120
+objSet healthStage2Period 40 40
+objSet healthStage3Period 20 20
+objSet anchorRange 1800.000000
+objSet forcedRadiusState "state0"
+objSet insideState "state0"
+objSet deathEffect "large_explosion"

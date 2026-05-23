@@ -9,6 +9,7 @@
 /silverback.bin
 /game/game64.so
 /bin/*debug*
+/config/config_local.ini
 
 # Python
 *.pyc

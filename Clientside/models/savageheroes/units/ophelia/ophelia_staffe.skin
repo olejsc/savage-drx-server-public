@@ -1,0 +1,6 @@
+skinName default
+
+skinref Stick /models/savageheroes/units/ophelia/ophelia_staff_entropy.tga
+skinref weapon_effects /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+skinref Helix /models/savageheroes/units/ophelia/null.s2g
+

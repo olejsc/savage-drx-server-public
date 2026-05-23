@@ -1,0 +1,6 @@
+set mat_shininess 20.000000
+set mat_specular 5.000000 5.000000 5.000000
+set mat_doublesided 0
+set mat_terrain_overblend 1
+set mat_normalmap /models/unique/clans/terra/terra_warhammer_nm.s2g
+set mat_glossmap /models/unique/clans/terra/terra_warhammer_gm.s2g

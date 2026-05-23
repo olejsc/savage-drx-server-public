@@ -1,0 +1,277 @@
+// =====================================================================================
+// NOTE: ANY COMMENTED OUT LINES ARE NOT IMPLEMENTED CURRENTLY UNLESS NOTED OTHERWISE!!!
+// NOTE2: ANY LINES THAT ARE COMMENTED OUT AND MARKED WITH *** ARE UNUSED AND SHOULD BE 
+// REMOVED
+// =====================================================================================
+
+// ==============================
+// HUMAN RACE 
+// ==============================
+
+
+human_3_kills	sound/samurai/commander/030youbringgreathonortous:2
+human_5_kills   sound/samurai/commander/100youareahero:2
+human_10_kills  sound/samurai/commander/102youarealegend:2
+human_15_kills  sound/samurai/commander/104yourstorywillbetoldforgenerations:2
+human_skillful  sound/samurai/commander/079skillful:2
+
+// Worker Notifications
+
+human_new_building        	sound/samurai/units/122buildconstructed:1
+human_garrison_constructed  sound/samurai/units/231wehaveconstructedabarracks:2
+human_need_gold         	sound/samurai/units/240needmoregold:2
+human_need_stone         	sound/samurai/units/242needmorestone:1
+human_new_item           	sound/samurai/units/244newitemavailable:2
+human_new_unit           	sound/samurai/units/246newunitavailable:2
+human_new_weapon         	sound/samurai/units/248newweaponavailable:2
+
+human_redstone_mine_low      	sound/samurai/units/254ourstonelineisgettinglow:2
+human_redstone_mine_low_text  	Our Stone mine is getting low!
+human_redstone_mine_empty    	sound/samurai/units/252ourstonelineisdepleated:1
+human_redstone_mine_empty_text  Our Stone Mine is depleted!
+human_gold_mine_low        		sound/samurai/units/238ourgoldmineisgettinglow:2
+human_gold_mine_low_text    	Our Gold mine is getting low!
+human_gold_mine_empty      		sound/samurai/units/237ourgoldmineisdepleated:1
+human_gold_mine_empty_text    	Our Gold Mine is depleted!
+
+//mine depleted sounds use the normal building destroyed construct (see building alerts section)
+
+// Worker Feedback
+
+human_peasant_select      sound/samurai/units/select:8
+human_peasant_confirm     sound/samurai/units/confirm:7
+human_peasant_done        sound/samurai/units/done:4
+human_peasant_cant        sound/samurai/units/222icantdothat:2
+
+// Generic player selection sounds
+human_nomad_select        	sound/human/player/respawn.wav
+human_savage_select        sound/human/player/respawn.wav
+human_legionnaire_select   sound/human/player/respawn.wav
+human_catapult_select      sound/human/player/respawn.wav
+human_ballista_select      sound/human/player/respawn.wav
+
+
+// Old Commander variable names, ideally they should be removed and the ones bellow used.
+// I left it just incase, please note that these are dupes of few of the ones bellow.
+
+
+human_order_cancel         		sound/samurai/commander/056nevermind:2
+human_order_mine         		sound/samurai/commander/038minehere:2
+human_order_follow         		sound/samurai/commander/063protectthisunit:3
+human_order_defend         		sound/samurai/commander/011defendthisarea:3
+human_order_move         		sound/samurai/commander/042movehere:3
+human_order_build        		sound/samurai/commander/008buildhere:2
+human_order_repair         		sound/samurai/commander/066repairthisbuilding:3
+human_order_dropoff_resources   sound/samurai/commander/042movehere:3
+human_need_gold          		sound/samurai/commander/050weneedmoregold:2
+human_need_stone        		sound/samurai/commander/054weneedmorestone:2
+human_start_research      		sound/samurai/commander/066repairthisbuilding:3
+
+
+// Commander Notifications
+human_cmdr_garrison_attack      sound/samurai/commander/025ourbarracksareunderattack_1.wav
+human_cmdr_garrison_destroyed   sound/samurai/commander/026ourbarrackshavebeendestroyed_1.wav
+human_cmdr_garrison_destroyed2  sound/samurai/commander/027ourbarrackshavebeendestroyed_1.wav
+human_cmdr_need_gold        	sound/samurai/commander/050weneedmoregold_1.wav
+human_cmdr_need_gold2        	sound/samurai/commander/050weneedmoregold_2.wav
+human_cmdr_need_redstone      	sound/samurai/commander/054weneedmorestone_1.wav
+human_cmdr_need_redstone2      	sound/samurai/commander/054weneedmorestone_2.wav
+
+
+
+//friendly buildings alerts (enemy attacking our building)
+//
+//these are in the form "friend_race_objectname_warningtype"
+//
+//where "race" is the race of the announcer saying the message
+//
+//valid warningtypes:
+//
+//under_attack
+//half_destroyed
+//nearly_destroyed
+//destroyed
+//destroyed_all    - all buildings of this type are destroyed
+//low        - mine low
+//under_siege    - building being attacked by a siege weapon
+
+friend_human_human_stronghold_half_destroyed    	sound/samurai/commander/081ourcommandcentreisburning:2
+friend_human_human_stronghold_half_destroyed_text  	Our Command Centre is burning!
+friend_human_human_stronghold_under_attack      	sound/samurai/commander/083ourcommandcentrehadbeendamaged:2
+friend_human_human_stronghold_under_attack_text    	Our Command Centre has been damaged!
+friend_human_human_stronghold_nearly_destroyed    	sound/samurai/commander/085ourcommandcentreisnearlydestroyed:2
+friend_human_human_stronghold_nearly_destroyed_text Our Command Centre is nearly destroyed!
+friend_human_human_stronghold_under_siege      		sound/samurai/commander/087ourcommandcentreisundersiege:2
+friend_human_human_stronghold_under_siege_text    	Our Command Centre is under siege!
+friend_human_human_garrison_under_attack      		sound/samurai/commander/025ourbarracksareunderattack:1
+friend_human_human_garrison_under_attack_text    	Our Barracks are under attack!
+friend_human_human_garrison_destroyed        		sound/samurai/commander/026ourbarrackshavebeendestroyed:2
+friend_human_human_garrison_destroyed_text      	Our Barracks have been destroyed!
+friend_human_human_siege_destroyed_all        		sound/samurai/commander/077ourseigeunitshavebeendisabled:1
+friend_human_human_siege_destroyed_all_text      	Our SIEGE units have been disabled!
+
+//generic ones:
+enemy_human_building_destroyed      	sound/samurai/units/140wehavedestroyedtheenemystructure:1
+enemy_human_building_destroyed_text    	We have destroyed an enemy structure
+friend_human_building_destroyed      	sound/samurai/units/139theyhavedestroyedabuilding:1
+friend_human_building_destroyed_text  	They have destroyed a building!
+
+
+
+//enemy building alerts (attacking enemy building)
+//
+//these are in the form "enemy_race_objectname_warningtype"
+
+enemy_human_human_stronghold_under_attack      		sound/samurai/units/133wearedammagingthecommandcentre:1
+enemy_human_human_stronghold_under_attack_text    	We are damaging the enemy Command Centre!
+enemy_human_human_stronghold_half_destroyed      	sound/samurai/units/195theircommandcentreisburning:1
+enemy_human_human_stronghold_half_destroyed_text  	Their Command Centre is burning!
+enemy_human_human_stronghold_nearly_destroyed    	sound/samurai/units/196theircommandcenterisnearlydestroyed:1
+enemy_human_human_stronghold_nearly_destroyed_text  Their Command Centre is nearly destroyed!
+enemy_human_human_garrison_under_attack        		sound/samurai/units/118weareattackingthebarracks:1
+enemy_human_human_garrison_under_attack_text    	We are attacking their Barracks!
+enemy_human_human_siege_destroyed_all        		sound/samurai/commander/020wehavedisabledtheirsiegeunits:1
+enemy_human_human_siege_destroyed_all_text      	We have disabled their Siege units!
+
+
+// Commander Feedback
+
+//human_cmdr_disregard_order    sound/human/commander/disregard_order.wav
+//human_cmdr_disregard_order2   sound/human/commander/disregard_order2.wav
+//human_cmdr_excelent_work      sound/human/commander/excelent_work.wav
+//human_cmdr_excelent_work2     sound/human/commander/excelent_work2.wav
+//human_cmdr_fool_obey        	sound/human/commander/fool_obey.wav
+//human_cmdr_fool_obey2        	sound/human/commander/fool_obey2.wav
+//human_cmdr_gave_command      	sound/human/commander/gave_command.wav
+//human_cmdr_gave_command2      sound/human/commander/gave_command2.wav
+//human_cmdr_honor_legion      	sound/human/commander/honor_legion.wav
+//human_cmdr_honor_legion2      sound/human/commander/honor_legion2.wav
+//human_cmdr_lead_honor        	sound/human/commander/lead_honor.wav
+//human_cmdr_lead_honor2      	sound/human/commander/lead_honor2.wav
+//human_cmdr_lead_honor3      	sound/human/commander/lead_honor3.wav
+//human_cmdr_lead_well        	sound/human/commander/lead_well.wav
+//human_cmdr_lead_well2        	sound/human/commander/lead_well2.wav
+//human_cmdr_lead_well3        	sound/human/commander/lead_well3.wav
+//human_cmdr_thank_you        	sound/human/commander/thank_you.wav
+//human_cmdr_thank_you2        	sound/human/commander/thank_you2.wav
+//human_cmdr_well_done        	sound/human/commander/well_done.wav
+//human_cmdr_well_done2        	sound/human/commander/well_done2.wav
+
+
+// Promote / Demote
+
+human_promoted   sound/samurai/commander/032leadwithhonour:2
+human_demoted    sound/samurai/commander/056nevermind:2      
+
+// Commander Orders
+//
+// all "attack" and "defend" orders can be followed by the name of a specific unit if desired
+//
+// 
+
+human_cmdr_order_attack            	sound/samurai/commander/001attackhere:3
+human_cmdr_order_attack_siege       sound/samurai/commander/004attackthecannon:2
+human_cmdr_order_attack_unit        sound/samurai/commander/006attackthisunit:2
+human_cmdr_order_attack_spawnflag   sound/samurai/commander/010capturethespawnflag:1
+human_cmdr_order_build            	sound/samurai/commander/008buildhere:2
+human_cmdr_order_attack_human_stronghold  sound/samurai/commander/016destroytheenemycommandcentre:4
+human_cmdr_order_attack_building    sound/samurai/commander/014destroythisbuilding:2
+human_cmdr_order_mine            	sound/samurai/commander/038minehere:2
+human_cmdr_order_move            	sound/samurai/commander/042movehere:3
+human_cmdr_order_repair            	sound/samurai/commander/066repairthisbuilding:3
+human_cmdr_order_defend            	sound/samurai/commander/011defendthisarea:3
+human_cmdr_order_defend_unit        sound/samurai/commander/011defendthisarea:3
+human_cmdr_order_dropoff_resources  sound/samurai/commander/045movetothislocation:3
+human_cmdr_order_cancel            	sound/samurai/commander/056nevermind:2
+human_cmdr_order_enter_transport    sound/human/commander/movetothislocation:3
+human_cmdr_order_enter_building     sound/human/commander/movetothislocation:3
+human_cmdr_order_complete          	sound/samurai/commander/096welldone:2
+
+// Officer Orders
+// all "attack" and "defend" orders can be followed by the name of a specific unit if desired
+
+human_officer_order_attack          sound/samurai/units/110attackhere:3
+human_officer_order_attack_siege      sound/samurai/units/109attack:1
+human_officer_order_attack_unit        sound/samurai/units/110attackhere:3
+human_officer_order_attack_spawnflag    sound/samurai/units/126capturethespawnflag:1
+human_officer_order_build          sound/samurai/units/125buildhere:1
+human_officer_order_attack_human_stronghold  sound/samurai/units/114attacktheenemycommandcentre:1
+human_officer_order_attack_building      sound/samurai/units/115attacktheenemystructure:1
+human_officer_order_attack_human_worker    sound/samurai/units/116attackthepheasants:1
+human_officer_order_mine          sound/samurai/units/163minehere:1
+human_officer_order_move          sound/samurai/units/166movehere:3
+human_officer_order_repair          sound/samurai/units/189reparethestructure:1
+human_officer_order_defend          sound/samurai/units/134defendthisarea:1
+human_officer_order_defend_unit        sound/samurai/units/187protectthisunit:1
+human_officer_order_defend_siege      sound/samurai/units/186protectthecannon:1
+human_officer_order_dropoff_resources    sound/samurai/units/166movehere:3
+human_officer_order_cancel          sound/samurai/units/056nevermind:2
+human_officer_order_enter_transport      sound/samurai/units/166movehere:3
+human_officer_order_enter_building      sound/samurai/units/166movehere:3
+human_officer_order_complete        sound/samurai/units/197arigato:2
+
+
+
+// Generic
+human_building_claimed  sound/general/building_claimed.wav
+human_building_stolen   sound/general/building_stolen.wav
+human_aproved          	sound/general/request_approved.wav
+human_declined          sound/general/request_declined.wav
+human_expired          	sound/general/request_expired.wav
+
+
+
+// ==============================
+// SHARED
+// ==============================
+
+// These are probably not needed now since each race has its own unless you want an FX to accompany them
+construction_cancel sound/effects/construction_cancel.wav
+place_error         sound/general/place_error.wav
+building_place      sound/general/building_place.wav
+under_construction  sound/human/buildings/construction.wav
+vote_yes            sound/general/msg_receive.wav
+vote_no             sound/general/msg_send.wav
+vote_called         sound/general/vote.wav
+armor_heavy_1       sound/general/armor/armor_heavy_1.wav
+armor_heavy_2       sound/general/armor/armor_heavy_2.wav
+armor_heavy_3       sound/general/armor/armor_heavy_3.wav
+armor_heavy_4       sound/general/armor/armor_heavy_4.wav
+armor_light_1       sound/general/armor/armor_light_1.wav
+armor_light_2       sound/general/armor/armor_light_2.wav
+armor_light_3       sound/general/armor/armor_light_3.wav
+armor_light_4       sound/general/armor/armor_light_4.wav
+friendly_ping       sound/general/friendly_ping.wav
+enemy_ping          sound/general/enemy_ping.wav
+msg_send            sound/gui/msg_send.wav
+msg_receive         sound/gui/msg_receive.wav
+get_gold            sound/general/get_gold.wav
+spend_gold          sound/general/buy.wav
+pickup_weapon       sound/general/buy.wav
+general_notification sound/general/notification2.wav
+enemy_death         sound/general/enemy_death.wav
+friend_death        sound/general/friend_death.wav
+weapon_hit          sound/general/impact/melee/generic_2.wav
+
+// ==============================
+// FOOTSTEPS
+// ==============================
+
+// Human Footsteps
+
+footstep_grass_heavy_h_1      sound/general/footsteps/human/grass_heavy_1.wav
+footstep_grass_heavy_h_2      sound/general/footsteps/human/grass_heavy_2.wav
+footstep_grass_heavy_h_3      sound/general/footsteps/human/grass_heavy_3.wav
+footstep_grass_heavy_h_4      sound/general/footsteps/human/grass_heavy_4.wav
+footstep_grass_heavy_h_5      sound/general/footsteps/human/grass_heavy_5.wav
+footstep_grass_heavy_h_6      sound/general/footsteps/human/grass_heavy_6.wav
+footstep_grass_heavy_h_7      sound/general/footsteps/human/grass_heavy_7.wav
+footstep_grass_heavy_h_8      sound/general/footsteps/human/grass_heavy_8.wav
+footstep_grass_light_h_1      sound/general/footsteps/human/grass_light_1.wav
+footstep_grass_light_h_2      sound/general/footsteps/human/grass_light_2.wav
+footstep_grass_light_h_3      sound/general/footsteps/human/grass_light_3.wav
+footstep_grass_light_h_4      sound/general/footsteps/human/grass_light_4.wav
+footstep_grass_light_h_5      sound/general/footsteps/human/grass_light_5.wav
+footstep_grass_light_h_6      sound/general/footsteps/human/grass_light_6.wav
+footstep_grass_light_h_7      sound/general/footsteps/human/grass_light_7.wav
+footstep_grass_light_h_8      sound/general/footsteps/human/grass_light_8.wav

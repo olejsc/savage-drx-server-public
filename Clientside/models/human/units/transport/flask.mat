@@ -1,0 +1,7 @@
+set mat_shininess 5.000000
+set mat_specular 0.200000 0.2000000 0.2000000
+set mat_doubleSided 0
+set mat_terrain_overblend 1
+set mat_normalmap /models/human/units/transport/flask_NORM.s2g
+set mat_glossmap /models/human/units/transport/flask_GM.s2g
+

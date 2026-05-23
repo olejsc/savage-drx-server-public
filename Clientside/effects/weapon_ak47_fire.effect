@@ -1,0 +1,11 @@
+efSet sound1 "/models/savageheroes/items/ak47-1.wav"
+efSet sound2 "/models/savageheroes/items/ak47-2.wav"
+efSet sound3 ""
+efSet sound4 ""
+efSet loopsound ""
+efSet cmdrSound ""
+efSet broadcastSound ""
+efSet stopLoopSound 1
+efSet soundVolume 1.0000000 1.0000000
+efSet soundRadius 200
+efSet cameraShake 0.000000 0.000000

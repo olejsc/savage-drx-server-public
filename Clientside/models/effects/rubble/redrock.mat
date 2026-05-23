@@ -1,0 +1,6 @@
+set mat_doublesided 0
+set mat_shininess 1.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_terrain_overblend 0.000000
+set mat_normalmap /models/effects/rubble/redrock_normal1.tga
+set mat_glossmap /models/effects/rubble/redrock_gm.tga

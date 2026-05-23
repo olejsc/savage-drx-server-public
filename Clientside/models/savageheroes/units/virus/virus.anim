@@ -1,0 +1,32 @@
+//syntax:
+
+//makeanim AnimName ClipFile StartFrame NumFrames FPS Loop(0 or 1) Loopbackframe
+
+//common
+
+makeanim idle run.clip 0 19 1 1 
+
+makeanim walk_fwd run.clip 0 19 5
+makeanim walk_back back.clip 0 19 8
+
+makeanim run_fwd run.clip 0 19 10 1
+makeanim run_back back.clip 0 19 10 1
+
+makeanim sprint_fwd run.clip 0 19 15 1 
+makeanim sprint_back back.clip 0 19 10 1
+
+makeanim wounded_left run.clip 0 19 1 1 
+makeanim wounded_right run.clip 0 19 1 1 
+makeanim wounded_fwd run.clip 0 19 1 1 
+makeanim wounded_back run.clip 0 19 1 1 
+
+makeanim death_generic death.clip
+
+animevent wounded_left 0 "randsound 5 /sound/general/impact/melee/flesh"
+animevent wounded_right 0 "randsound 5 /sound/general/impact/melee/flesh"
+animevent wounded_fwd 0 "randsound 5 /sound/general/impact/melee/flesh"
+animevent wounded_back 0 "randsound 5 /sound/general/impact/melee/flesh"
+
+animevent death_generic 1 "randsound 2 /models/savageheroes/units/sheep/sound/sheep_death"
+
+makeanim weapon_fire_1 shoot.clip 0 0 40

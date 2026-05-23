@@ -1,0 +1,53 @@
+objSet objclass "weapon"
+objSet description "Marksman's Bow"
+objSet race "human"
+objSet model "/models/human/weapons/ranged/sniperbow_third.model"
+objSet handModel "/models/human/weapons/ranged/sniperbow.model"
+objSet handEffect ""
+objSet projectileModel "/models/human/weapons/ranged/arrow.model"
+objSet projectileEffect ""
+objSet trailEffect "arrow_trail"
+objSet trailPeriod 20 20
+objSet flybyEffect "flyby_arrow"
+objSet icon "/models/human/weapons/ranged/icons/sniperbow"
+objSet tooltip "Favored by skilled archers, this high powered bow is equipped with a scope and can kill from a great distance."
+objSet builder1 "human_arsenal"
+objSet requirement1 "human_arsenal"
+objSet requirement2 "human_crossbow"
+objSet needBasePoints 2
+objSet techType "NULL"
+objSet ammoName "Superior Arrow"
+objSet velocity 22000.000000 22000.000000
+objSet chargeFlags +velocity -damage -range -accuracy -fusetime -blastradius -blastdamage -count -inverse 
+objSet chargeTime 2933
+objSet spinupTime 1300
+objSet refreshTime 1133
+objSet ammoMax 5
+objSet ammoStart 5
+objSet ammoCost 500
+objSet twangAmount 10.000000
+objSet twangTime 0.500000
+objSet twangPingPong 0
+objSet maxVelocity 0.000000
+objSet gravity 0.200000
+objSet weapPointValue 1
+objSet hitUnit "die_noeffect"
+objSet damage 300
+objSet unitpierce 0.900000
+objSet bldpierce 0.100000
+objSet siegepierce 0.500000
+objSet repeat 0
+objSet minfov 20.000000
+objSet focusPenalty 0.000000
+objSet animGroup 3
+objSet cost stone 400
+objSet researchTime 30000
+objSet playerCost 1250
+objSet attachBone "_bonerangedL"
+objSet attachBone2 "_boneRangedR"
+objSet speedPenalty 0.700000
+objSet fullHealth 0
+objSet backbone "bip01 spine2"
+objSet deathEffect "dust_cloud"
+objSet weaponFireEffect "weapon_marksmanbow_fire"
+objSet wpChargeSound "/sound/human/weapons/bow_idle.wav"

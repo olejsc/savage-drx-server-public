@@ -1,0 +1,38 @@
+objSet objclass "building"
+objSet description "Guard Tower"
+objSet race "human"
+objSet model "/models/human/buildings/arrow_tower.model"
+objSet icon "/models/human/buildings/icons/arrow_tower"
+objSet selectionIcon "/models/human/buildings/icons/arrow_tower.tga"
+objSet tooltip "A simple tower that fires arrows at nearby enemies."
+objSet selectionSound "/sound/human/buildings/arrow_tower.wav"
+objSet gridmenu "/gridmenus/layout_default.cfg"
+objSet proximitySound "default"
+objSet builder1 "human_worker"
+objSet needBasePoints 1
+objSet techType "NULL"
+objSet refreshTime 2000
+objSet cost stone 250
+objSet cost gold 1500
+objSet researchTime 30000
+objSet viewHeight 300.000000
+objSet fullHealth 2500
+objSet weapon "arrow_tower_weapon"
+objSet radiusState "state0"
+objSet backbone "bip01 spine2"
+objSet mineType "stone"
+objSet scanRange 500.000000
+objSet healthStage1 75
+objSet healthStage3 25
+objSet healthStage1Effect "fire_medium"
+objSet healthStage2Effect "fire_medium"
+objSet healthStage3Effect "fire_medium"
+objSet healthStage1Period 200 200
+objSet healthStage2Period 90 90
+objSet healthStage3Period 50 50
+objSet needsAnchor 1
+objSet forcedScanRange 300
+objSet forcedRadiusState "magtowershield"
+objSet insideState "state0"
+objSet deathEffect "small_explosion"
+objSet constructionSound "/sound/general/construction.wav"

@@ -1,0 +1,44 @@
+objSet objclass "weapon"
+objSet description "Rupture"
+objSet race "beast"
+objSet model "/models/beast/weapons/ranged/entropy_staff_third.model"
+objSet handModel "/models/beast/weapons/ranged/entropy_staff3.model"
+objSet handEffect ""
+objSet projectileEffect ""
+objSet trailEffect "weapon_rupture_trail"
+objSet trailPeriod 100 100
+objSet flybyEffect "flyby_chaos_bolt"
+objSet icon "/models/beast/weapons/ranged/icons/rupture"
+objSet tooltip "By focussing on a particular point, the caster causes the ground itself to explode around his enemies."
+objSet builder1 "beast_entropy_shrine"
+objSet requirement1 "beast_entropy_shrine"
+objSet requirement2 "beast_entropy2"
+objSet needBasePoints 3
+objSet techType "entropy"
+objSet ammoName "ammo"
+objSet velocity 1400.000000 1400.000000
+objSet refreshTime 1000
+objSet ammoMax 0
+objSet ammoCost 0
+objSet twangAmount 1.300000
+objSet twangTime 0.500000
+objSet maxVelocity 0.000000
+objSet gravity 0.000000
+objSet bounce 0.800000
+objSet fuseTime 0 0
+objSet weapPointValue 1
+objSet damage 110
+objSet radius 110.000000 110.000000
+objSet bldpierce 1.400000
+objSet animGroup 2
+objSet cost stone 400
+objSet researchTime 40000
+objSet playerCost 500
+objSet attachBone "_boneRangedR"
+objSet attachBone2 "_boneRangedR"
+objSet useMana 1
+objSet manaCost 9
+objSet fullHealth 0
+objSet backbone "bip01 spine2"
+objSet deathEffect "fx_rupture_explosion"
+objSet weaponFireEffect "weapon_rupture_fire"

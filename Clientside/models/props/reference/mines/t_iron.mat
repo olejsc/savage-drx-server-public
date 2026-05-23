@@ -1,0 +1,7 @@
+set mat_shininess 10.000000
+set mat_specular 0.900000 0.900000 0.900000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_normalmap /models/props/reference/mines/t_iron_NORM.s2g
+set mat_glossmap /models/props/reference/mines/t_iron_SPEC.s2g
+set mat_parallaxScale 0.003000

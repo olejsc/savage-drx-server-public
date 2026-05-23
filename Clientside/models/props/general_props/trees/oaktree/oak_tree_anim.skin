@@ -1,0 +1,6 @@
+skinName default
+skinRef default t_palmtreebark.tga
+skinRef Mesh01 t_palmtreebark.tga
+skinRef Mesh02 t_palmtreebark.tga
+skinRef Mesh03 t_palmtreebark.tga
+skinRef _foliage oaktree_leaves.tga

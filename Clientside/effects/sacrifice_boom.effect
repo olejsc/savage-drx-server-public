@@ -1,0 +1,29 @@
+
+//Particles:
+vfEdit 0
+vfSet visclass "particles"
+vfSet flags +parent_pos -parent_vel -param_location -param_scale -param_count -param_groundz -param_sinewave -param_nearparent -param_billboard2d -param_terrainz -grow_shrink_linear -grow_shrink_poly -alloc_trail -alloc_trail_per_child -trail_rendering -terrain_decal 
+vfSet shader "/textures/effects/explosions/1_nl_exp_blast.tga"
+vfSet size 55.000000 55.000000
+vfSet growth 45.000000 45.000000
+vfSet fade -1.000000 -1.000000
+vfSet red 0.900000 0.900000
+vfSet green 0.400000 0.400000
+vfSet blue 0.150000 0.150000
+vfSet redfade -0.900000 -0.900000
+vfSet greenfade -0.400000 -0.400000
+vfSet bluefade -0.200000 -0.200000
+vfSet lifetime 800 800
+vfSet count 2 2
+vfSet fps 0 0
+vfSet angle 0.000000 360.000000
+
+vfEdit 1
+vfSet visclass "null"
+
+vfEdit 2
+vfSet visclass "null"
+
+vfEdit 3
+vfSet visclass "null"
+

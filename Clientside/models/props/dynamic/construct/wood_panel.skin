@@ -1,0 +1,7 @@
+skinName default
+
+skinRef plank_01 models/props/xr_props/arabic/house_three_first.s2g
+skinRef plank_02 models/props/xr_props/arabic/house_three_first.s2g
+skinRef wood_panel_01 models/props/xr_props/arabic/house_three_first.s2g
+skinRef wood_panel_02 models/props/xr_props/arabic/house_three_first.s2g
+skinRef wood_panel_03 models/props/xr_props/arabic/house_three_first.s2g

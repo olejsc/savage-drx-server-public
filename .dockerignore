@@ -1,0 +1,16 @@
+.git
+.idea
+.cache
+venv
+__pycache__
+*.pyc
+*.log
+*.iml
+
+/silverback.bin
+/game/game64.so
+/game/world
+/bin/*debug*
+/drx
+/dist
+/config/config_local.ini

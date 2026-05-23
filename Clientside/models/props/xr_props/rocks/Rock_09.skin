@@ -1,0 +1,20 @@
+skinName small_rock_01_09
+skinRef RockFlat09 models/props/xr_props/rocks/Rock_Atlas_03_01.tga
+
+skinName small_rock_02_09
+skinRef RockFlat09 models/props/xr_props/rocks/Rock_Atlas_03_02.tga
+
+skinName small_rock_03_09
+skinRef RockFlat09 models/props/xr_props/rocks/Rock_Atlas_03_03.tga
+
+skinName small_rock_04_09
+skinRef RockFlat09 models/props/xr_props/rocks/Rock_Atlas_03_04.tga
+
+skinName small_rock_05_09
+skinRef RockFlat09 models/props/xr_props/rocks/Rock_Atlas_03_05.tga
+
+skinName small_rock_06_09
+skinRef RockFlat09 models/props/xr_props/rocks/Rock_Atlas_03_06.tga
+                        
+skinName small_rock_07_09
+skinRef RockFlat09 models/props/xr_props/rocks/Rock_Atlas_03_07.tga

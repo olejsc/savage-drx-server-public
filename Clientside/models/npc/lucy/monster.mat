@@ -1,0 +1,6 @@
+set mat_shininess 20.000000
+set mat_specular 0.700000 0.700000 0.700000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_normalmap /models/npc/lucy/monster_normalmap.tga
+set mat_heightmapScale 4.000000

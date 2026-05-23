@@ -1,0 +1,12 @@
+skinName default
+
+skinRef weapon_effects 1_nl_swarm.tga
+skinRef object02 beast_light_entropy3.tga
+
+
+skinName team2
+
+skinRef weapon_effects 1_nl_swarm.tga
+skinRef object02 beast_shaman_t2.tga
+
+

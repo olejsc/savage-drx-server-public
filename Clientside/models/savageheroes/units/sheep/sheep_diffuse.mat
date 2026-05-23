@@ -1,0 +1,6 @@
+set mat_shininess 1.000000
+set mat_specular 0.000000 0.000000 0.000000
+set mat_doublesided 0
+set mat_normalmap /models/savageheroes/units/sheep/sheep_normalmap.s2g
+set mat_glossmap /models/savageheroes/units/sheep/sheep_glossmap.s2g
+set mat_heightmapScale 1.00000

@@ -1,0 +1,34 @@
+skinName default 
+
+skinref Cylinder07 /models/savageheroes/units/ophelia/ophelia_staff_entropy.tga
+skinref weapon_effects01 /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+skinref weapon_effects02 /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+
+skinref Box01 /models/savageheroes/units/ophelia/null.s2g
+skinref Box02 /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+skinref Box03 /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+skinref Box07 /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+skinref Box10 /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+skinref Box02 /models/savageheroes/units/ophelia/1_nl_ophelia_eglow0000.tga
+
+skinref Box06 /models/savageheroes/units/ophelia/null.s2g
+skinref Box08 /models/savageheroes/units/ophelia/null.s2g
+skinref Box09 /models/savageheroes/units/ophelia/null.s2g
+
+
+skinName mana
+
+skinref Cylinder07 /models/savageheroes/units/ophelia/ophelia_staff_mana.tga
+skinref weapon_effects01 /models/savageheroes/units/ophelia/1_nl_ophelia_mglow0000.tga
+skinref weapon_effects02 /models/savageheroes/units/ophelia/1_nl_ophelia_mglow0000.tga
+
+skinref Box01 /models/savageheroes/units/ophelia/null.s2g
+skinref Box02 /models/savageheroes/units/ophelia/1_nl_ophelia_mglow0000.tga
+skinref Box03 /models/savageheroes/units/ophelia/1_nl_ophelia_mglow0000.tga
+skinref Box07 /models/savageheroes/units/ophelia/1_nl_ophelia_mglow0000.tga
+skinref Box10 /models/savageheroes/units/ophelia/1_nl_ophelia_mglow0000.tga
+skinref Box02 /models/savageheroes/units/ophelia/1_nl_ophelia_mglow0000.tga
+
+skinref Box06 /models/savageheroes/units/ophelia/null.s2g
+skinref Box08 /models/savageheroes/units/ophelia/null.s2g
+skinref Box09 /models/savageheroes/units/ophelia/null.s2g

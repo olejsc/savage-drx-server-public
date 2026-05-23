@@ -1,0 +1,7 @@
+set mat_shininess 15.000000
+set mat_specular 10.000000 10.000000 10.000000
+set mat_doublesided 0
+set mat_normalmap /models/unique/players/lucky/headphones_normalmap.s2g
+set mat_glossmap /models/unique/players/lucky/headphones_gm.s2g
+set mat_terrain_overblend 0
+

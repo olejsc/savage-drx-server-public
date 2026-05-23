@@ -1,0 +1,11 @@
+efSet sound1 "/models/savageheroes/units/sheep/sound/sheep_death_1.wav"
+efSet sound2 "/models/savageheroes/units/sheep/sound/sheep_death_2.wav"
+efSet sound3 ""
+efSet sound4 ""
+efSet loopsound ""
+efSet cmdrSound ""
+efSet broadcastSound ""
+efSet stopLoopSound 1
+efSet soundVolume 1
+efSet soundRadius 160
+efSet cameraShake 0.000000 0.000000

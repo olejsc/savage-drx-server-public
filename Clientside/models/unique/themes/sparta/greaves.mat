@@ -1,0 +1,7 @@
+set mat_shininess 10.000000
+set mat_specular 5.000000 5.000000 5.000000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_normalmap /models/unique/themes/sparta/greaves_normalmap.s2g
+set mat_glossmap /models/unique/themes/sparta/greaves_gm.s2g
+set mat_heightmapScale 2.500000

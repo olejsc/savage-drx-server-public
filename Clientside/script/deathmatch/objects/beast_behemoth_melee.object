@@ -1,0 +1,11 @@
+objSet objclass "melee"
+objSet description "uprooted tree"
+objSet race "beast"
+objSet tooltip "Behemoth's weapon"
+objSet alwaysAvailable 1
+objSet techType "NULL"
+objSet damage 3500
+objSet playerCost -1
+objSet WPTech3 "all"
+objSet fullHealth 0
+objSet backbone "bip01 spine2"

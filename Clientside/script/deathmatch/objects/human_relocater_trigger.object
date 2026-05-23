@@ -1,0 +1,38 @@
+objSet objclass "item"
+objSet description "Relocater trigger"
+objSet race "human"
+objSet drawTeamIcon 0
+objSet handModel "/models/human/items/relocator_trigger.model"
+objSet handEffect ""
+objSet projectileEffect ""
+objSet icon "/models/human/items/icons/relocator_deployed"
+objSet tooltip "info 26"
+objSet proximitySound "default"
+objSet needBasePoints 1
+objSet alwaysAvailable 1
+objSet techType "electric"
+objSet ammoName "ammo"
+objSet ammoMax 1
+objSet ammoStart 1
+objSet twangTime 0.200000
+objSet damage 0
+objSet repeat 0
+objSet playerCost -1
+objSet attachBone "_boneRangedR"
+objSet attachBone2 "_boneRangedR"
+objSet causesMeleeState "state0"
+objSet bmin_x -2.000000
+objSet bmin_y -2.000000
+objSet bmax_x 2.000000
+objSet bmax_y 2.000000
+objSet bmax_z 25.000000
+objSet fullHealth 50
+objSet backbone "bip01 spine2"
+objSet spawnFrom 1
+objSet delayEffect ""
+objSet delayPeriod 0
+objSet activeEffect ""
+objSet activeEffectPeriod 0
+objSet isSolid 1
+objSet isActivated 1
+objSet use_itemEffect "item_electriceye_place"

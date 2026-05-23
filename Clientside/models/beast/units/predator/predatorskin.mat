@@ -1,0 +1,6 @@
+set mat_shininess 35.000000
+set mat_specular 0.300000 0.300000 0.300000
+set mat_doublesided 0
+set mat_normalmap /models/beast/units/predator/predatorskin_normalmap.tga
+set mat_glossmap /models/beast/units/predator/predatorskin_gm.tga
+set mat_heightmapScale 1.000000

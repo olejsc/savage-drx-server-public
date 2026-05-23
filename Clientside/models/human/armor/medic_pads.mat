@@ -1,0 +1,6 @@
+set mat_shininess 25.000000
+set mat_specular 1.00000 1.00000 1.00000
+set mat_doublesided 0
+set mat_normalmap /models/human/armor/medic_pads_normalmap.s2g
+set mat_glossmap /models/human/armor/medic_pads_gm.tga
+set mat_heightmapScale 1.000000

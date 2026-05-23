@@ -1,0 +1,6 @@
+set mat_shininess 5.000000
+set mat_specular 0.0000 0.0000 0.0000
+set mat_doubleSided 0
+set mat_terrain_overblend 0.000000
+set mat_normalmap /models/beast/units/Predator/predatorskin_normalmap.tga
+set mat_glossmap /models/beast/units/Predator/predatorskin_gm

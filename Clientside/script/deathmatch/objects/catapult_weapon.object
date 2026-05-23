@@ -1,0 +1,36 @@
+objSet objclass "weapon"
+objSet description "Catapult Weapon"
+objSet race "human"
+objSet handEffect ""
+objSet projectileModel "/models/human/weapons/ranged/rock.model"
+objSet projectileSkin "/weapons/resources/catapult_projectile.skin"
+objSet projectileEffect ""
+objSet trailEffect "catapult_trail"
+objSet trailPeriod 30 30
+objSet icon "/gui/standard/melee"
+objSet tooltip "Catapult Weapon"
+objSet needBasePoints 1
+objSet alwaysAvailable 1
+objSet techType "NULL"
+objSet ammoName "ammo"
+objSet velocity 800.000000 800.000000
+objSet refreshTime 4000
+objSet ammoMax 8
+objSet ammoStart 8
+objSet ammoCost 0
+objSet twangAmount 0.000000
+objSet twangTime 0.000000
+objSet twangPingPong 0
+objSet maxVelocity 0.000000
+objSet fuseTime 10000 10000
+objSet damage 5000
+objSet radius 100.000000 100.000000
+objSet unitpierce 0.075000
+objSet siegepierce 0.300000
+objSet playerCost -1
+objSet attachBone "_boneRangedR"
+objSet attachBone2 "_boneRangedR"
+objSet backbone "bip01 spine2"
+objSet isVulnerable 0
+objSet deathEffect "catapult_explosion"
+objSet projectileSound "/sound/effects/projectiles/catapult_rock_1.wav"

@@ -1,0 +1,6 @@
+set mat_shininess 10.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_doublesided 0
+set mat_normalmap /models/unique/players/daemon/daemon_sword_normalmap.s2g
+set mat_glossmap /models/unique/players/daemon/daemon_sword_gm.s2g
+set mat_terrain_overblend 0

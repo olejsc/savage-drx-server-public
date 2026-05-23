@@ -1,0 +1,34 @@
+objSet objclass "weapon"
+objSet description "Ballista"
+objSet race "human"
+objSet handEffect ""
+objSet projectileModel "/models/human/weapons/ranged/arrow.model"
+objSet projectileSkin "/weapons/resources/arrow.skin"
+objSet projectileScale 200.000000
+objSet projectileEffect ""
+objSet trailEffect "arrow_trail"
+objSet trailPeriod 20 20
+objSet flybyEffect "flyby_ballista"
+objSet icon "/gui/standard/melee"
+objSet tooltip "info 36"
+objSet needBasePoints 2
+objSet alwaysAvailable 1
+objSet techType "NULL"
+objSet ammoName "ammo"
+objSet velocity 2000.000000 2000.000000
+objSet refreshTime 1500
+objSet ammoMax 12
+objSet ammoStart 12
+objSet twangTime 0.200000
+objSet maxVelocity 0.000000
+objSet fuseTime 1000 1000
+objSet damage 1500
+objSet unitpierce 0.330000
+objSet siegepierce 0.400000
+objSet cost stone 400
+objSet playerCost -1
+objSet attachBone "_boneRangedR"
+objSet attachBone2 "_boneRangedR"
+objSet backbone "bip01 spine2"
+objSet isVulnerable 0
+objSet deathEffect "fx_ballista_explosion"

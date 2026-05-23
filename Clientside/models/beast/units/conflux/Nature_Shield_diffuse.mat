@@ -1,0 +1,7 @@
+set mat_shininess 5.000000
+set mat_specular 0.050000 0.050000 0.050000
+set mat_doublesided 1
+set mat_terrain_overblend 0.5000000
+set mat_normalmap /models/beast/units/conflux/Nature_Shield_normal.tga
+set mat_glossmap  /models/beast/units/conflux/Nature_Shield_gm.tga
+set mat_heightmapScale 1.000000

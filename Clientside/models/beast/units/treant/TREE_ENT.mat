@@ -1,0 +1,7 @@
+set mat_shininess 20.000000
+set mat_specular 1.0 1.0 1.0
+set mat_doublesided 0
+set mat_terrain_overblend 0.200000
+set mat_normalmap /models/beast/units/treant/TREE_ENT_NRM.s2g
+set mat_glossmap /models/beast/units/treant/TREE_ENT_SPEC.s2g
+set mat_heightmapScale 1.000000

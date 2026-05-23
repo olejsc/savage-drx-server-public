@@ -1,0 +1,82 @@
+objSet objclass "unit"
+objSet description "Kongor"
+objSet race "race0"
+objSet model "/models/npc/kongor/kongor.model"
+objSet voiceMenu "human_player_male"
+objSet tooltip "tooltip"
+objSet gridmenu "/gridmenus/layout_default.cfg"
+objSet proximitySound "default"
+objSet techType "NULL"
+objSet footstepType "light"
+objSet isWorker 1
+objSet blockArc 0.448074
+objSet speed 6.000000
+objSet stepHeight 1.000000
+objSet viewHeight 80.000000
+objSet distOffset 50
+objSet bmin_x -20.000000
+objSet bmin_y -20.000000
+objSet bmax_x 20.000000
+objSet bmax_y 20.000000
+objSet bmax_z 100.000000
+objSet killGoldReward 8000
+objSet level 10
+objSet totalLives 1
+objSet cloakFadeIn 0.200000
+objSet cloakFadeOut 0.600000
+objSet cloakShader "/textures/effects/skins/t_camo.tga"
+objSet attackMissileChance 1.000000
+objSet attackSuicideDelay 500.000000 1000.000000
+objSet attackSuicideRange 30.000000 60.000000
+objSet dodgeDistance 0.000000 0.000000
+objSet aggressionChance 0.500000
+objSet aggressionRange 300.000000 300.000000
+objSet aggressionInterval 500.000000 1000.000000
+objSet packRange 70.000000
+objSet packSize 0 3
+objSet stampedeSlowdownDistance 0 138375720
+objSet fullHealth 5000
+objSet forceInventory0 "npc_boulder"
+objSet allowInventory0 +none +weapon +building +unit +item +upgrade +melee 
+objSet allowInventory1 +none +weapon +building +unit +item +upgrade +melee 
+objSet allowInventory2 +none +weapon +building +unit +item +upgrade +melee 
+objSet allowInventory3 +none +weapon +building +unit +item +upgrade +melee 
+objSet allowInventory4 +none +weapon +building +unit +item +upgrade +melee 
+objSet backbone "bip01 spine2"
+
+//Attacks:
+atkEdit melee_1
+atkSet time 1200
+atkSet impact 600 600
+atkSet damage 125
+atkSet damageFlags -no_knockback -no_air -no_ground -no_block -self_none -self_half -no_falloff -no_structures +quake_event -no_reaction -strip_states -explosive -burning -electrical 
+atkSet range 60
+atkSet restTime 200 1500
+
+atkEdit melee_2
+atkSet restTime 0 0
+
+atkEdit melee_3
+atkSet restTime 0 0
+
+atkEdit melee_4
+atkSet restTime 0 0
+
+atkEdit alt_melee_1
+atkSet restTime 0 0
+
+atkEdit alt_melee_2
+atkSet restTime 0 0
+
+atkEdit alt_melee_3
+atkSet restTime 0 0
+
+atkEdit alt_melee_4
+atkSet restTime 0 0
+
+atkEdit melee_charge
+atkSet restTime 0 0
+
+atkEdit melee_release
+atkSet restTime 0 0
+

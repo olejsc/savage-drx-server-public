@@ -1,0 +1,55 @@
+//voice chat config for human commander
+
+//voice chats are specified first by issuing a category name, then listing individual items
+
+//syntax:
+//voiceCategory <Number> <Description>
+//voiceItem <Number> <Description>
+//voiceSound <WavFile> <ChatText>
+//voiceMore <Number> <Description> <CategoryNumber>
+//voiceFlag <team | global>
+
+//voiceSound may be specified up to 4 times for the same item (for multiple versions of the same voice chat)
+//voiceItem can be specified up to 10 times per voiceCategory
+//voiceMore allows sub menus to be specified
+//voiceFlag specifies team or global chat
+
+voiceSquad human		//specifies that this is the squad voice chat menu belonging to the human race
+
+voiceDirectory sound/samurai/commander	//base directory to look for WAV files (specify once per file)
+
+//
+// SQUAD MISSIONS
+//
+
+voiceCategory 0
+
+voiceItem 1 "Destroy the enemy Command Centre"
+voiceSound 016destroytheenemycommandcentre_1.ogg "Destroy the Enemy Base"
+voiceSound 016destroytheenemycommandcentre_2.ogg "Destroy the Enemy Base"
+voiceSound 016destroytheenemycommandcentre_3.ogg "Destroy the Enemy Base"
+voiceSound 016destroytheenemycommandcentre_4.ogg "Destroy the Enemy Base"
+
+voiceItem 2 "Capture the spawn flag"
+voiceSound 010capturethespawnflag_1.ogg "Capture the Spawn Flag"
+
+voiceItem 3 "Return to base"
+voiceSound 070returntobase_1.ogg "Return to Base"
+voiceSound 070returntobase_2.ogg "Return to Base"
+
+voiceItem 4 "Scout for resources" 
+voiceSound 074scoutforrecources_1.ogg "Scout for resources"
+voiceSound 074scoutforrecources_2.ogg "Scout for resources"
+voiceSound 074scoutforrecources_3.ogg "Scout for resources"
+
+voiceItem 5 "Scout for enemies" 
+voiceSound 072scoutforenemies_1.ogg "Scout for enemies"
+voiceSound 072scoutforenemies_2.ogg "Scout for enemies"
+
+voiceItem 6 "We need more gold"
+voiceSound 050weneedmoregold_1.ogg "We need more Gold"
+voiceSound 050weneedmoregold_2.ogg "We need more Gold"
+
+voiceItem 7 "We need more stone"
+voiceSound 054weneedmorestone_1.ogg "We need more Stone"
+voiceSound 054weneedmorestone_2.ogg "We need more Stone"

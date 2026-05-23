@@ -1,0 +1,19 @@
+objSet objclass "building"
+objSet description "pot"
+objSet race "race0"
+objSet drawTeamIcon 0
+objSet model "/models/props/reference/pots/pot_tumble.model"
+objSet skin "default"
+objSet tooltip "info 131"
+objSet gridmenu "/gridmenus/layout_default.cfg"
+objSet proximitySound "default"
+objSet proximity 100.000000
+objSet techType "NULL"
+objSet viewHeight 25.000000
+objSet fullHealth 1
+objSet radiusState "state0"
+objSet backbone "bip01 spine2"
+objSet mineType ""
+objSet forcedRadiusState "state0"
+objSet insideState "state0"
+objSet deathEffect "pot_explode"

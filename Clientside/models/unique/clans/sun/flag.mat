@@ -1,0 +1,7 @@
+set mat_shininess 0.500000
+set mat_specular 0.5000000 0.5000000 0.5000000
+set mat_doublesided 1
+set mat_normalmap /models/unique/clans/sun/flag_normalmap.s2g
+set mat_glossmap /models/unique/clans/sun/flag_gm.s2g
+set mat_terrain_overblend 0
+

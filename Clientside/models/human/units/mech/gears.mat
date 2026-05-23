@@ -1,0 +1,7 @@
+set mat_shininess 40.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_doubleSided 0
+set mat_terrain_overblend 0
+//set mat_shader nm_gm
+set mat_normalmap /models/human/units/mech/gears_normal.tga
+set mat_glossmap /models/human/units/mech/gears_gm.tga

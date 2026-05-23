@@ -1,0 +1,27 @@
+objSet objclass "item"
+objSet description "Ammo Pack"
+objSet race "human"
+objSet handEffect ""
+objSet projectileEffect ""
+objSet icon "/models/human/items/icons/generic_ammo"
+objSet tooltip "While carrying an Ammo Pack, you will be outfitted with twice as much ammo each time you spawn."
+objSet proximitySound "default"
+objSet builder1 "human_research_center"
+objSet requirement1 "human_research_center"
+objSet needBasePoints 1
+objSet techType "NULL"
+objSet ammoName "ammo"
+objSet twangTime 0.200000
+objSet unitpierce 0.000000
+objSet bldpierce 0.000000
+objSet cost stone 300
+objSet researchTime 25000
+objSet playerCost 400
+objSet attachBone "_boneRangedR"
+objSet attachBone2 "_boneRangedR"
+objSet causesMeleeState "state0"
+objSet fullHealth 0
+objSet backbone "bip01 spine2"
+objSet delayEffect ""
+objSet activeEffect ""
+objSet isSelectable 0

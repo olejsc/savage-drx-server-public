@@ -1,0 +1,9 @@
+skinName team2
+
+skinRef face musketeer_2_green.tga
+skinName team2
+
+skinRef body musketeer_3_green.tga
+skinName team2
+
+skinRef armor musketeer_green.tga

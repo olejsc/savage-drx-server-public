@@ -1,0 +1,6 @@
+set mat_shininess 15.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_glossmap textures/core/white.s2g
+set mat_heightmapScale 0.750000

@@ -1,0 +1,12 @@
+skinName team2
+
+skinRef walls "walls_green.tga"
+skinName team2
+
+skinRef roof "t_roof_green.tga"
+skinName team2
+
+skinRef gables "gables_green.tga"
+skinName team2
+
+skinRef alpha "t_banner_green.tga"

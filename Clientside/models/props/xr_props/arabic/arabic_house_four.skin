@@ -1,0 +1,12 @@
+skinName default
+
+skinRef Box02 house_three_second.s2g
+skinRef Box07 house_three_first.s2g
+skinRef hatch props_door_d.s2g
+skinRef House_1_2 house_1d.s2g
+skinRef Object02 house_three_second.s2g
+skinRef ladder ladder_d.s2g
+skinRef decals_transparent 2_leak.s2g
+skinRef Main house_2d.s2g
+skinRef Object07 house2_2d.s2g
+skinRef Object08 t_house4_seamswall.s2g

@@ -1,0 +1,11 @@
+skinName monolith_rock1
+skinRef objRock_big_single_b models/props/xr_props/nature/rock_big_single_b_diffuse_1.s2g
+
+skinName monolith_rock2
+skinRef objRock_big_single_b models/props/xr_props/nature/rock_big_single_b_diffuse_2.s2g
+
+skinName monolith_rock3
+skinRef objRock_big_single_b models/props/xr_props/nature/rock_big_single_b_diffuse_3.s2g
+
+skinName monolith_rock4
+skinRef objRock_big_single_b models/props/xr_props/nature/rock_big_single_b_diffuse_4.s2g

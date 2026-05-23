@@ -1,0 +1,7 @@
+set mat_shininess 15.000000
+set mat_specular 3.000000 3.000000 3.000000
+set mat_doublesided 0
+set mat_terrain_overblend 0.000000
+set mat_normalmap /models/unique/themes/sparta/spartan_plate_normalmap.s2g
+set mat_glossmap /models/unique/themes/sparta/spartan_plate_gm.s2g
+set mat_heightmapScale 5.500000

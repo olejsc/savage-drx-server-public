@@ -1,0 +1,6 @@
+set mat_shininess 50.000000
+set mat_specular 5.000000 5.00000 5.000000
+set mat_doublesided 0
+set mat_terrain_overblend 1
+set mat_normalmap /models/unique/clans/exp/exp_sword_nm.s2g
+set mat_glossmap /models/unique/clans/exp/exp_sword_gm.s2g

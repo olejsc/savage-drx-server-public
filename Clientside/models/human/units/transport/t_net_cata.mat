@@ -1,0 +1,7 @@
+set mat_doublesided 1
+set mat_shininess 1.000000
+set mat_specular .5000000 .5000000 .5000000
+set mat_terrain_overblend 0
+set mat_normalmap /models/human/units/transport/t_net_cata_NORM.s2g
+set mat_glossmap /models/human/units/transport/black_GM.s2g
+

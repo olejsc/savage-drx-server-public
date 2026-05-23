@@ -1,0 +1,5 @@
+skinName /models/unique/clans/vision/vs_summoner.skin
+skinRef Object02 /models/unique/clans/vision/vs_summoner.s2g
+skinRef weapon_effects /models/beast/units/shaman/1_nl_ecoglow.s2g
+skinRef weapon /models/beast/units/shaman/t_bark3.s2g
+skinRef Plane06 /models/beast/units/shaman/teeth.s2g

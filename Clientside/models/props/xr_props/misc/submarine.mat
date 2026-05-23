@@ -1,0 +1,5 @@
+set mat_shininess 5.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_glossmap /models/props/xr_props/misc/submarine.s2g

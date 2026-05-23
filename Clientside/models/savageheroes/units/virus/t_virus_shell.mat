@@ -1,0 +1,6 @@
+set mat_shininess 1.000000
+set mat_specular 0.000000 0.000000 0.000000
+set mat_doublesided 0
+set mat_normalmap /models/savageheroes/units/virus/t_virus_shell_NORM.tga
+set mat_glossmap /models/savageheroes/units/virus/t_virus_shell_SPEC.tga
+set mat_heightmapScale 1.00000

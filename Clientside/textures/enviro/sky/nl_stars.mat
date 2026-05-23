@@ -1,0 +1,4 @@
+set mat_doubleSided 1
+set mat_depthWrite 0
+set mat_depthTest 0
+set mat_color 0.5 0.5 0.5 1.0

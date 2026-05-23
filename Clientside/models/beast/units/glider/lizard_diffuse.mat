@@ -1,0 +1,7 @@
+set mat_shininess 50.000000
+//set mat_specular 1.000000 1.000000 1.000000
+set mat_doublesided 1
+set mat_terrain_overblend 0.5000000
+set mat_normalmap /models/beast/units/glider/lizard_normal.tga
+set mat_glossmap /models/beast/units/glider/lizard_gloss_.tga
+

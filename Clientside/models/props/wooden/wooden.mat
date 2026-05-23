@@ -1,0 +1,6 @@
+set mat_shininess 20.000000
+set mat_specular 0.250000 0.250000 0.250000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_normalmap /models/props/wooden/wooden_normalmap.tga
+set mat_glossmap /models/props/wooden/wooden_gm.tga

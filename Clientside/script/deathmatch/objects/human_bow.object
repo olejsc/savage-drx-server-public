@@ -1,0 +1,44 @@
+objSet objclass "weapon"
+objSet description "Hunting Bow"
+objSet race "human"
+objSet model "/models/human/weapons/ranged/bow_third.model"
+objSet scale 1.500000
+objSet handModel "/models/human/weapons/ranged/bow.model"
+objSet handEffect ""
+objSet projectileModel "/models/human/weapons/ranged/arrow.model"
+objSet projectileEffect ""
+objSet trailEffect "arrow_trail"
+objSet trailPeriod 50 50
+objSet flybyEffect "flyby_arrow"
+objSet icon "/models/human/weapons/ranged/icons/bow"
+objSet tooltip "Normally used to hunt for food, this is the most basic weapon available to all human warriors."
+objSet needBasePoints 1
+objSet alwaysAvailable 1
+objSet techType "NULL"
+objSet ammoName "Arrows"
+objSet velocity 2000.000000 2000.000000
+objSet chargeFlags +velocity -damage -range -accuracy -fusetime -blastradius -blastdamage -count -inverse 
+objSet chargeTime 800
+objSet spinupTime 200
+objSet refreshTime 800
+objSet ammoMax 20
+objSet ammoStart 20
+objSet ammoGroup 5
+objSet ammoCost 0
+objSet twangTime 0.200000
+objSet maxVelocity 0.000000
+objSet fuseTime 3000 3000
+objSet weapPointValue 1
+objSet hitUnit "die_noeffect"
+objSet damage 80
+objSet unitpierce 0.900000
+objSet bldpierce 0.100000
+objSet repeat 0
+objSet animGroup 2
+objSet attachBone "_bonerangedL"
+objSet attachBone2 "_boneRangedR"
+objSet speedPenalty 0.900000
+objSet fullHealth 0
+objSet backbone "bip01 spine2"
+objSet deathEffect "dust_cloud"
+objSet weaponFireEffect "weapon_bow_fire"

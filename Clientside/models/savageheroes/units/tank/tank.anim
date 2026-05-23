@@ -1,0 +1,27 @@
+//syntax:
+
+//makeanim AnimName ClipFile StartFrame NumFrames FPS Loop(0 or 1) Loopbackframe
+
+//common
+
+makeanim idle idle.clip 0 19 5 1 
+
+makeanim walk_fwd move.clip 0 19 15
+makeanim walk_back back.clip 0 19 10
+
+makeanim run_fwd move.clip 0 19 15 1
+makeanim run_back back.clip 0 19 10 1
+
+makeanim sprint_fwd move.clip 0 19 15 1 
+makeanim sprint_back back.clip 0 19 10 1
+
+makeanim melee_1 melee.clip 
+makeanim melee_move_1 melee.clip 
+
+//makeanim weapon_fire_1 shoot.clip 0 0 20
+makeanim weapon_fire_1 shoot.clip 
+makeanim weapon_fire_2 melee.clip 0 0 33
+
+makeanim death_generic death.clip 0 0 10
+
+animevent weapon_fire_2 5 "randsound 5 /sound/general/impact/melee/generic"

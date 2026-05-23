@@ -1,0 +1,9 @@
+skinName default
+
+skinref Spark /models/savageheroes/units/ophelia/1_nl_ophelia_fglow0000.tga
+//skinref Sword /models/savageheroes/units/jeraziah/AncientWarrior_Sword_diff_1st.tga
+
+skinName melee
+
+skinref Spark /models/savageheroes/units/ophelia/null.s2g
+

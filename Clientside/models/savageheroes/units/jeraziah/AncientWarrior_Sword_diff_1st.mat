@@ -1,0 +1,7 @@
+set mat_shininess 30.000000
+set mat_specular 10.000000 10.000000 10.000000
+set mat_doublesided 0
+set mat_normalmap /models/savageheroes/units/jeraziah/AncientWarrior_Sword_norm.tga
+set mat_glossmap /models/savageheroes/units/jeraziah/AncientWarrior_Sword_gm.tga
+set mat_heightmapScale 5.000000
+set mat_terrain_overblend 0

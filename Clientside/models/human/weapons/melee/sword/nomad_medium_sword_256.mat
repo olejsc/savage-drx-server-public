@@ -1,0 +1,7 @@
+set mat_shininess 20.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_normalmap /models/human/weapons/melee/sword/nomad_medium_sword_256_normalmap.tga
+set mat_glossmap /models/human/weapons/melee/sword/nomad_medium_sword_256_gm.tga
+set mat_heightmapScale 2.00000

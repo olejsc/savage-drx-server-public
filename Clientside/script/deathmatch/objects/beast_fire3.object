@@ -1,0 +1,51 @@
+objSet objclass "weapon"
+objSet description "Fireball"
+objSet race "beast"
+objSet model "/models/beast/weapons/ranged/fire_staff_third.model"
+objSet handModel "/models/beast/weapons/ranged/fire_staff3.model"
+objSet handEffect ""
+objSet projectileEffect ""
+objSet trailEffect "weapon_fire1_trail"
+objSet trailPeriod 20 20
+objSet flybyEffect "flyby_fire"
+objSet icon "/models/beast/weapons/ranged/icons/fireball"
+objSet tooltip "Allows the caster to launch explosive fireballs.  The longer this spell is charged before release, the faster and stronger the fireball will be."
+objSet builder1 "beast_fire_shrine"
+objSet requirement1 "beast_fire_shrine"
+objSet requirement2 "beast_fire2"
+objSet needBasePoints 3
+objSet techType "fire"
+objSet ammoName "ammo"
+objSet velocity 1200.000000 1200.000000
+objSet accuracy 0.950000
+objSet chargeFlags +velocity +damage -range -accuracy -fusetime +blastradius +blastdamage -count -inverse 
+objSet chargeTime 2500
+objSet refreshTime 250
+objSet ammoMax 0
+objSet ammoCost 0
+objSet twangAmount 0.000000
+objSet twangTime 0.500000
+objSet minVelocity 500.000000
+objSet maxVelocity 0.000000
+objSet gravity 0.500000
+objSet fuseTime 1500 1500
+objSet weapPointValue 1
+objSet damage 243
+objSet radius 40.000000 40.000000
+objSet unitpierce 0.775000
+objSet bldpierce 2.100000
+objSet siegepierce 2.000000
+objSet repeat 0
+objSet animGroup 2
+objSet cost stone 400
+objSet researchTime 40000
+objSet playerCost 500
+objSet attachBone "_boneRangedR"
+objSet attachBone2 "_boneRangedR"
+objSet useMana 1
+objSet manaCost 10
+objSet fullHealth 0
+objSet weapon "0"
+objSet backbone "bip01 spine2"
+objSet deathEffect "fire_explosion2"
+objSet weaponFireEffect "weapon_fireball_fire"

@@ -1,0 +1,6 @@
+set mat_doubleSided 1
+set mat_shininess 0.5000000
+set mat_specular 0.100000 0.1000000 0.1000000
+set mat_normalmap /models/human/buildings/clothtops_normalmap.tga
+set mat_glossmap /models/human/buildings/black.tga
+

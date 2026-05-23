@@ -11,6 +11,10 @@ everything else.
   - `description "Summoner Arc"` as a visible load check in the spawn UI
   - `isVehicle 1`, `canEject 1`, `ejectUnit "beast_scavenger"` as the first
     Ballista/Catapult-style control experiment
+  - `isMount 0`, `canDodge 0`, `blockPower 0.750000`, `blockArc 180.000000`
+    to match the client-facing driven-siege flags used by Ballista/Catapult
+  - `viewHeight 39`, `distOffset 68` to match Ballista's third-person siege
+    camera reference
   - `fixedPitch 0.000000`
   - `allowFirstPerson 1`
   - `minAimX 0.330000`, `maxAimX 0.670000`
@@ -59,8 +63,9 @@ everything else.
 - `minAimY 0.280000`, `maxAimY 0.620000`
 
 The Summoner arc override copies these aim bounds for the config-only v1.
-It does not copy Ballista's `bmin_*`/`bmax_*` values; those are physical object
-collision bounds, not the mouse aim box.
+It also copies the Ballista-style driven-siege client flags, but it does not
+copy Ballista's `bmin_*`/`bmax_*` values; those are physical object collision
+bounds, not the mouse aim box.
 
 ## Observed Property Names
 

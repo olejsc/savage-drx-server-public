@@ -1,0 +1,38 @@
+skinName default
+skinRef Gold1 t_goldrock.tga
+skinRef Gold2 1_nl_black.tga
+skinRef Gold3 1_nl_black.tga
+skinRef Gold4 1_nl_black.tga
+skinRef Gold5 1_nl_black.tga
+
+skinName flavor1 
+
+skinRef Gold1 t_goldrock.tga
+skinRef Gold2 1_nl_black.tga
+skinRef Gold3 1_nl_black.tga
+skinRef Gold4 1_nl_black.tga
+skinRef Gold5 1_nl_black.tga
+
+skinName flavor2
+
+skinRef Gold2 t_goldrock.tga
+skinRef Gold1 1_nl_black.tga
+skinRef Gold3 1_nl_black.tga
+skinRef Gold4 1_nl_black.tga
+skinRef Gold5 1_nl_black.tga
+
+skinName flavor3
+
+skinRef Gold3 t_goldrock.tga
+skinRef Gold2 1_nl_black.tga
+skinRef Gold1 1_nl_black.tga
+skinRef Gold4 1_nl_black.tga
+skinRef Gold5 1_nl_black.tga
+
+skinName flavor4
+
+skinRef Gold4 t_goldrock.tga
+skinRef Gold2 1_nl_black.tga
+skinRef Gold3 1_nl_black.tga
+skinRef Gold1 1_nl_black.tga
+skinRef Gold5 1_nl_black.tga

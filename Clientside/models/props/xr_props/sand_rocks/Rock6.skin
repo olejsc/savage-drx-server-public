@@ -1,0 +1,8 @@
+skinName sand_rock_6_1
+skinRef Rock6 "models/props/xr_props/sand_rocks/Rock6_diffuse.tga"
+
+skinName sand_rock_6_2
+skinRef Rock6 "models/props/xr_props/sand_rocks/Rock6_diffuse2.tga"
+
+skinName sand_rock_6_3
+skinRef Rock6 "models/props/xr_props/sand_rocks/Rock6_diffuse3.tga"

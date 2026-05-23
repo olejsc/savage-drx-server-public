@@ -1,0 +1,124 @@
+objSet objclass "unit"
+objSet description "Stalker"
+objSet race "beast"
+objSet model "/models/beast/units/stalker/character.model"
+objSet skin "/models/beast/units/stalker/character.skin"
+objSet scale 1.200000
+objSet voiceMenu "beast_player_male"
+objSet icon "/models/beast/units/stalker/icon"
+objSet tooltip "A skilled killer of feline ancestry"
+objSet gridmenu "/gridmenus/beast/layout_player.cfg"
+objSet proximitySound "default"
+objSet builder1 "beast_lair2"
+objSet needBasePoints 2
+objSet techType "NULL"
+objSet unitpierce 2.360000
+objSet bldpierce 1.570000
+objSet siegepierce 0.790000
+objSet cost stone 600
+objSet researchTime 100
+objSet playerCost -1
+objSet footstepType "light_b"
+objSet blockPower 0.750000
+objSet speed 1.750000
+objSet viewHeight 25.000000
+objSet distOffset 15
+objSet maxCarry stone 25
+objSet maxCarry gold 25
+objSet bmin_x -6.000000
+objSet bmin_y -6.000000
+objSet bmax_x 6.000000
+objSet bmax_y 6.000000
+objSet bmax_z 27.000000
+objSet killGoldReward 750
+objSet respawnTime 15000.000000
+objSet repairRate 25
+objSet buildRate 150
+objSet healAmount 2
+objSet healRate 5000
+objSet maxMana 100
+objSet mass 250.000000
+objSet revivable 1
+objSet cloakFadeIn 0.200000
+objSet cloakFadeOut 0.600000
+objSet cloakShader "/textures/effects/skins/t_camo.tga"
+objSet attackSuicideDelay 500.000000 1000.000000
+objSet attackSuicideRange 30.000000 60.000000
+objSet dodgeDistance 30.000000 60.000000
+objSet aggressionRange 0.000000 0.000000
+objSet aggressionInterval 500.000000 1000.000000
+objSet packSize 0 16
+objSet stampedeSlowdownDistance 0 138220048
+objSet fullHealth 400
+objset forceInventory0 "beast_rabid"
+objset forceInventory2 "beast_stamina_boost"
+objset forceInventory4 "beast_camouflage"
+objSet allowInventory0 -none -weapon -building -unit -item -upgrade +melee 
+objSet allowInventory1 -none +weapon -building -unit -item -upgrade -melee 
+objSet allowInventory2 -none -weapon -building -unit +item -upgrade -melee 
+objSet allowInventory3 -none -weapon -building -unit +item -upgrade -melee 
+objSet allowInventory4 -none -weapon -building -unit +item -upgrade -melee 
+objSet backbone "bip01 spine2"
+objSet woundedEffect "player_stalker_wounded"
+objSet resurrectedEffect "shaman_res"
+objSet dropoffEffect "depositresources"
+objSet levelUpEffect "beast_levelup"
+objSet spawnEffect "beast_respawn"
+objSet deathEffect "player_stalker_death"
+objSet mineEffect "mineresources"
+objSet dropoffEffect "depositresources"
+objSet resourceFullEffect "resourcesfull"
+objSet goodiePickupEffect "goodiebag_pickup"
+objSet jumpLandEffect "beast_light_jumpland"
+objSet jumpEffect "player_stalker_jump"
+objSet idleSound "/sound/beast/units/stalker/idle.wav"
+
+//Attacks:
+atkEdit melee_1
+atkSet time 1050
+atkSet impact 200 400
+atkSet flurry 400
+atkSet flurryTime 225
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit melee_2
+atkSet time 750
+atkSet impact 200 400
+atkSet flurry 325
+atkSet flurryTime 225
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit melee_3
+atkSet time 1050
+atkSet impact 200 400
+atkSet flurry 400
+atkSet flurryTime 225
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit melee_4
+atkSet time 750
+atkSet impact 225 500
+atkSet range 20
+atkSet restTime 0 0
+
+atkEdit alt_melee_1
+atkSet restTime 0 0
+
+atkEdit alt_melee_2
+atkSet restTime 0 0
+
+atkEdit alt_melee_3
+atkSet restTime 0 0
+
+atkEdit alt_melee_4
+atkSet restTime 0 0
+
+atkEdit melee_charge
+atkSet restTime 0 0
+
+atkEdit melee_release
+atkSet restTime 0 0
+

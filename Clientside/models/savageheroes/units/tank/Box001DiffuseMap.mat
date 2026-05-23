@@ -1,0 +1,7 @@
+set mat_shininess 20.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_doubleSided 0
+set mat_terrain_overblend 0
+set mat_normalmap /models/savageheroes/units/tank/Box001DiffuseMap_normalmap.tga
+set mat_glossmap /models/savageheroes/units/tank/Box001DiffuseMap_gm.tga
+set mat_heightmapScale 1.00000

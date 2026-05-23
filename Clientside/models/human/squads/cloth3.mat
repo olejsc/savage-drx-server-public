@@ -1,0 +1,6 @@
+set mat_doubleSided 1
+set mat_shininess 10.000000
+set mat_specular 1.00000 1.00000 1.00000
+set mat_normalmap /models/human/squads/cloths_normalmap.tga
+set mat_glossmap /models/human/squads/cloths_gm.tga
+set mat_heightmapScale 1.000000

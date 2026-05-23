@@ -1,0 +1,132 @@
+varying vec3 normal;
+varying vec3 lightPos0;			// light position 0 in tangent space
+varying vec3 lightPos1;			// light position 1 in tangent space
+varying vec3 viewV;
+varying vec4 ambient;
+
+uniform sampler2D texture0; 	// base texture
+uniform sampler2D texture1; 	// clouds texture
+uniform sampler2D normalMap; 	// normalmap texture
+uniform sampler2D glossMap; 	// glossmap texture
+uniform vec4 ps_pb_cs_hs;			// parallax scale, parallax bias, rgb scale (tex modulate), height scale (for normalmap)
+
+float stepmix(float edge0, float edge1, float E, float x) {
+  float T = clamp(0.5 * (x - edge0 + E) / E, 0.0, 1.0);
+  return mix(edge0, edge1, T);
+}
+
+const float A = 0.1;
+const float B = 0.3;
+const float C = 0.6;
+const float D = 1.0;
+
+float magic(float myInput) {
+  float myOutput = 0.0;
+
+  float E = fwidth(myInput);
+  if      (myInput > A - E && myInput < A + E) myOutput = stepmix(A, B, E, myInput);
+  else if (myInput > B - E && myInput < B + E) myOutput = stepmix(B, C, E, myInput);
+  else if (myInput > C - E && myInput < C + E) myOutput = stepmix(C, D, E, myInput);
+  else if (myInput < A) myOutput = 0.0;
+  else if (myInput < B) myOutput = B;
+  else if (myInput < C) myOutput = C;
+  else myOutput = D;
+
+  return myOutput;
+}
+
+float diffuseSimple(vec3 N, vec3 L) {
+  float df = max(0.0, dot(N, L));
+
+  return df;
+}
+
+float specularSimple(vec3 N, vec3 HV) {
+  float sf = max(0.0, dot(N, HV));
+
+  // if (celShading == 1) {
+  //   sf = clamp(sf, 0.0, 1.0);
+  // }
+
+  return sf;
+}
+
+void main() {
+  vec4 color;
+  float dist = gl_FragCoord.z / gl_FragCoord.w;
+  float fog = ((gl_Fog.end - dist) / (gl_Fog.end - gl_Fog.start));
+  fog = clamp(fog, 0.0, 1.0);
+
+  if (fog < 0.02) {
+    color = gl_Fog.color;
+  } else {
+    vec4 diffuse = vec4(0.0);
+    vec4 specular = vec4(0.0);
+    vec3 normal2;
+    vec3 lightVector;
+    vec4 baseColor;
+    vec2 newTexcoord;
+
+    vec3 tangent = gl_TexCoord[2].xyz;
+    vec3 binormal = normalize(cross(normal, tangent)) * gl_TexCoord[2].w;
+    mat3 tbn_mat = mat3(tangent, binormal, normal);
+
+    vec3 viewVector = normalize(viewV * tbn_mat);
+
+    float h = texture2D(normalMap, gl_TexCoord[0].st).a;
+    newTexcoord = gl_TexCoord[0].st + (viewVector.xy * (1.0 * ps_pb_cs_hs.x + ps_pb_cs_hs.y));
+
+    vec4 normalColor = texture2D(normalMap, newTexcoord);
+    normalColor = normalColor * 2.0 - 1.0;
+    normal2 = normalColor.rgb;
+    normal2.z *= h * ps_pb_cs_hs.w;
+    normal2 = normalize(normal2);
+
+    baseColor = texture2D(texture0, newTexcoord) * gl_Color;
+
+    if (baseColor.a < 0.05) {
+      discard;
+    }
+
+    float nDotVP = 0.0; 	// normal . light direction
+    float nDotHV = 0.0; 	// normal . light half vector
+
+    /********* light 0 ***************/
+    lightVector = normalize(lightPos0 * tbn_mat);
+
+    nDotVP = diffuseSimple(normal2, lightVector);
+
+    diffuse += gl_LightSource[0].diffuse * nDotVP;
+
+    nDotHV = specularSimple(normal2, normalize(lightVector + viewVector));
+
+    if (gl_FrontMaterial.shininess > 0.0) {
+      specular += gl_LightSource[0].diffuse * pow(nDotHV, gl_FrontMaterial.shininess);
+    }
+
+    const float numShades = 5.0;
+    const float iambi = 0.05;
+
+    /********* light 1 ***************/
+    lightVector = normalize(lightPos1 * tbn_mat);
+
+    nDotVP = diffuseSimple(normal2, lightVector);
+
+    diffuse += gl_LightSource[1].diffuse * nDotVP;
+
+    nDotHV = specularSimple(normal2, normalize(lightVector + viewVector));
+
+    specular += texture2D(glossMap, newTexcoord) * specular * gl_FrontMaterial.specular;
+
+    color = vec4(baseColor.rgb * (ambient.rgb + diffuse.rgb + specular.rgb), baseColor.a);
+
+    // apply real bright
+    color.rgb *= ps_pb_cs_hs.z;
+  }
+
+  if (fog < 1.0) {
+    color.rgb = mix(gl_Fog.color.rgb, color.rgb, fog);
+  }
+
+  gl_FragColor = color;
+}

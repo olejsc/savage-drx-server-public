@@ -1,0 +1,35 @@
+varying vec3 normal;
+
+varying vec3 lightPos0;
+varying vec3 lightPos1;
+varying vec3 viewV;
+varying vec4 ambient;
+
+uniform int celShading;
+uniform int silhouette;
+
+void main()
+{
+	// pass texture coords
+	gl_TexCoord[0] = gl_MultiTexCoord0;
+	gl_TexCoord[2] = gl_MultiTexCoord2;
+
+	float aI = 0.75 + max(0.0, 0.25 * (dot(vec3(0.0, 0.0, 1.0), gl_Normal)));
+	ambient = gl_LightModel.ambient * aI;
+	gl_FrontColor = gl_Color;
+
+	normal = gl_Normal;
+
+	lightPos0 = vec3(gl_ModelViewMatrixInverse * gl_LightSource[0].position);
+	lightPos1 = vec3(gl_ModelViewMatrixInverse * gl_LightSource[1].position);
+
+	/***** EYE CAM POSITITION *********/
+	vec4 eyeWorld = (gl_ModelViewMatrixInverse * vec4(0.0, 0.0, 0.0, 1.0));
+	viewV = vec3(-gl_Vertex + eyeWorld);
+
+	if (celShading == 0 || silhouette == 0) {
+		gl_Position = ftransform();
+	} else if (celShading == 1 && silhouette == 1) {
+		gl_Position = gl_ProjectionMatrix * gl_ModelViewMatrix * vec4(vec3(gl_Vertex) - 0.05 * viewV, 1.0);
+	}
+}

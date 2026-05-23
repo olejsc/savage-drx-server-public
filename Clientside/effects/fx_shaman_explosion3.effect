@@ -1,0 +1,118 @@
+efSet sound1 ""
+efSet sound2 ""
+efSet sound3 ""
+efSet sound4 ""
+efSet loopsound ""
+efSet cmdrSound ""
+efSet broadcastSound ""
+efSet stopLoopSound 1
+efSet soundVolume 1
+
+
+vfEdit 0
+vfSet visclass "particles"
+vfSet flags -parent_pos -parent_vel -param_location -param_scale -param_count 
+vfSet shader "/textures/effects/auras/1_nl_divinemight.tga"
+//vfSet size 15.000000 15.000000
+//vfSet growth 60.000000 60.000000
+vfSet size 24.000000 24.000000
+vfSet growth 8.000000 8.000000
+vfSet alpha 1.000000 0.000000
+vfSet fade -1.000000 -1.000000
+vfSet white 0.750000 0.750000
+vfSet whitefade 0.000000 0.000000
+vfSet red 1.000000 1.000000
+vfSet green 0.000000 0.000000
+vfSet blue 0.000000 0.000000
+vfSet redfade 0.000000 0.000000
+vfSet greenfade 0.000000 0.000000
+vfSet bluefade 0.000000 0.000000
+vfSet delay 0 0
+vfSet lifetime 250 250
+vfSet tilelength 0.000000
+vfSet style "point"
+vfSet model ""
+vfSet skin ""
+vfSet count 1 1
+vfSet velocity 0.000000 0.000000
+vfSet acceleration 0.000000 0.000000
+vfSet fps 30 30
+vfSet offset 0.000000 0.000000
+vfSet gravity 0.000000 0.000000
+vfSet angle 0.000000 0.000000
+vfSet spin 0.000000 0.000000
+vfSet bone "bip01 spine1"
+
+vfEdit 1
+vfSet visclass "particles"
+vfSet flags +parent_pos -parent_vel -param_location -param_scale -grow_shrink_poly
+vfSet shader "/textures/effects/skins/flameb.png"
+vfSet size 2.000000 6.000000
+vfSet growth 5.000000 7.000000
+vfSet alpha 0.900000 1.000000
+vfSet fade -1.000000 -1.000000
+vfSet white 1.000000 1.000000
+vfSet whitefade -1.000000 -1.000000
+vfSet red 0.100000 0.100000
+vfSet green 0.000000 0.200000
+vfSet blue 0.000000 0.000000
+vfSet redfade -1.000000 -1.000000
+vfSet greenfade -1.000000 -1.000000
+vfSet bluefade 0.000000 0.000000
+vfSet delay 0 0
+vfSet lifetime 200 300
+vfSet tilelength 0.000000
+vfSet style "point"
+vfSet model ""
+vfSet skin ""
+vfSet count 3 6
+vfSet velocity 15.000000 15.000000
+vfSet acceleration 10.000000 10.000000
+vfSet fps 0 0
+vfSet offset 0.000000 9.000000
+vfSet forcedOffsetZ 26.000000
+vfSet gravity -2 -2
+vfSet angle 0.000000 0.000000
+vfSet spin -90.000000 -45.000000
+vfSet bone "bip01 spine2"
+vfSet spawncount 1 3
+vfSet spawndelay 100
+vfSet spawninterval 100 100
+
+
+
+vfEdit 2
+vfSet visclass "particles"
+vfSet flags -parent_pos -parent_vel -param_location -param_scale
+vfSet shader "/textures/effects/fire/1_nl_flame_b_0000.tga"
+vfSet size 8.000000 14.000000
+vfSet growth 5.000000 7.000000
+vfSet alpha 1.000000 1.000000
+vfSet fade -1.000000 -1.000000
+vfSet white 1.000000 1.000000
+vfSet whitefade -1.000000 -1.000000
+vfSet red 0.600000 0.800000
+vfSet green 0.000000 0.200000
+vfSet blue 0.000000 0.000000
+vfSet redfade -1.000000 -1.000000
+vfSet greenfade -1.000000 -1.000000
+vfSet bluefade 0.000000 0.000000
+vfSet delay 0 0
+vfSet lifetime 600 900
+vfSet tilelength 0.000000
+vfSet style "point"
+vfSet model ""
+vfSet skin ""
+vfSet count 4 8
+vfSet velocity 10.000000 50.000000
+vfSet acceleration 10.000000 60.000000
+vfSet fps 0 0
+vfSet offset 2.000000 5.000000
+vfSet forcedOffsetZ 2.000000
+vfSet gravity -0.1 -1
+vfSet angle 0.000000 0.000000
+vfSet spin -90.000000 -45.000000
+vfSet bone "bip01 spine1"
+vfSet spawncount 1 4
+vfSet spawndelay 0
+vfSet spawninterval 100 100

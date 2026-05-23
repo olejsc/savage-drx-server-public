@@ -1,0 +1,47 @@
+skinName default
+skinRef Stone1 nl_crystal01.tga
+skinRef Stone2 1_nl_black.tga
+skinRef Stone3 1_nl_black.tga
+skinRef Stone4 1_nl_black.tga
+skinRef Stone5 1_nl_black.tga
+
+skinName flavor1 
+
+skinRef Stone1 nl_crystal01.tga
+skinRef Stone2 1_nl_black.tga
+skinRef Stone3 1_nl_black.tga
+skinRef Stone4 1_nl_black.tga
+skinRef Stone5 1_nl_black.tga
+
+skinName flavor2
+
+skinRef Stone2 nl_crystal01.tga
+skinRef Stone1 1_nl_black.tga
+skinRef Stone3 1_nl_black.tga
+skinRef Stone4 1_nl_black.tga
+skinRef Stone5 1_nl_black.tga
+
+skinName flavor3
+
+skinRef Stone3 nl_crystal01.tga
+skinRef Stone2 1_nl_black.tga
+skinRef Stone1 1_nl_black.tga
+skinRef Stone4 1_nl_black.tga
+skinRef Stone5 1_nl_black.tga
+
+skinName flavor4
+
+skinRef Stone4 nl_crystal01.tga
+skinRef Stone2 1_nl_black.tga
+skinRef Stone3 1_nl_black.tga
+skinRef Stone1 1_nl_black.tga
+skinRef Stone5 1_nl_black.tga
+
+skinName flavor5
+
+skinRef Stone5 nl_crystal01.tga
+skinRef Stone2 1_nl_black.tga
+skinRef Stone3 1_nl_black.tga
+skinRef Stone4 1_nl_black.tga
+skinRef Stone1 1_nl_black.tga
+

@@ -1,0 +1,7 @@
+set mat_shininess 5.000000
+set mat_specular 0.200000 0.200000 0.100000
+set mat_doublesided 0
+set mat_terrain_overblend 1.000000
+set mat_normalmap /models/props/xr_props/aztec/t_ruins_wall_grass_normalmap.tga
+set mat_parallaxBias -0.010000
+set mat_parallaxScale 0.020000

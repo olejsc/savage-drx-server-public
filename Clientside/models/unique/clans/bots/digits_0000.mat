@@ -1,0 +1,7 @@
+set mat_shininess 5.000000
+set mat_specular 1.000000 1.000000 1.000000
+set mat_doublesided 0
+set mat_normalmap /models/unique/clans/bots/digits_0000_nm.tga
+set mat_glossmap /models/unique/clans/bots/digits_0000_gm.tga
+set mat_terrain_overblend 0
+

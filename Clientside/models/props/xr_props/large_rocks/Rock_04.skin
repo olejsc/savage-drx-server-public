@@ -1,0 +1,5 @@
+skinName large_rock_04_v1
+skinRef Rock_04 "models/props/xr_props/large_rocks/Rock 04 diffuse V1.tga"
+
+skinName large_rock_04_v2
+skinRef Rock_04 "models/props/xr_props/large_rocks/Rock 04 diffuse V2.tga"

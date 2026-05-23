@@ -1,0 +1,37 @@
+objSet objclass "building"
+objSet description "Shield Tower"
+objSet race "human"
+objSet model "/models/human/buildings/mag_tower.model"
+objSet icon "/models/human/buildings/icons/mag_tower"
+objSet selectionIcon "/models/human/buildings/icons/mag_tower.tga"
+objSet tooltip "Acting as a focal point for magnetic energy, this tower produces a powerful field around it blocking most damage done to nearby structures."
+objSet selectionSound "/sound/human/buildings/shield_tower.wav"
+objSet gridmenu "/gridmenus/layout_default.cfg"
+objSet proximitySound "default"
+objSet builder1 "human_arrow_tower"
+objSet requirement1 "human_magnetic_factory"
+objSet needBasePoints 2
+objSet techType "magnetic"
+objSet refreshTime 1300
+objSet cost stone 250
+objSet cost gold 3000
+objSet researchTime 30000
+objSet viewHeight 300.000000
+objSet fullHealth 4000
+objSet radiusState "magtowershield"
+objSet backbone "bip01 spine2"
+objSet mineType "stone"
+objSet scanRange 300.000000
+objSet healthStage1 75
+objSet healthStage3 25
+objSet healthStage1Effect "fire_medium"
+objSet healthStage2Effect "fire_medium"
+objSet healthStage3Effect "fire_medium"
+objSet healthStage1Period 200 200
+objSet healthStage2Period 90 90
+objSet healthStage3Period 50 50
+objSet forcedRadiusState "state0"
+objSet insideState "state0"
+objSet deathEffect "small_explosion"
+objSet constructionSound "/sound/general/construction.wav"
+objSet idleSound "/sound/human/buildings/shield_tower_loop.wav"

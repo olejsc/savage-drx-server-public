@@ -1,0 +1,7 @@
+skinName default
+
+skinRef decals_transparent 2_leak.s2g
+skinRef house_2_3 house_1d.s2g
+skinRef house_2_4 house_2d.s2g
+skinRef house_2_6 house2_1d.s2g
+skinRef house_2_7 house2_2d.s2g

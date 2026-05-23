@@ -1,0 +1,75 @@
+skinName default
+skinRef BladeAxle models/human/units/catapult/catapult.s2g
+skinRef BladeCloth models/human/buildings/fanblade.s2g
+skinRef BladeRibs models/human/buildings/t_woodplank_02.s2g
+skinRef Cart models/props/tombstone_props/western/crates_plain.s2g
+skinRef CartLogWell models/props/wooden/log_well.s2g
+skinRef Catapult models/human/units/catapult/catapult.s2g
+skinRef DoorsWindows models/props/plaster/doors_windows.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64.s2g
+skinRef HammerMetal models/props/reference/mines/t_iron.s2g
+skinRef HammerPadding models/human/units/catapult/catapult.s2g
+skinRef HammerShaft models/human/units/catapult/catapult.s2g
+skinRef LeverCata models/human/units/catapult/catapult.s2g
+skinRef LeverWheels models/props/wooden/log_well.s2g
+skinRef Planks models/props/reference/mines/t_woodplank_02.s2g
+skinRef Plaster models/human/buildings/t_mud_wall_256x256.s2g
+skinRef Rope models/human/units/transport/ropes.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64.s2g
+
+skinName team2
+skinRef BladeAxle models/human/units/catapult/catapult.s2g
+skinRef BladeCloth models/human/buildings/fanblade.s2g
+skinRef BladeRibs models/human/buildings/t_woodplank_02.s2g
+skinRef Cart models/props/tombstone_props/western/crates_plain.s2g
+skinRef CartLogWell models/props/wooden/log_well.s2g
+skinRef Catapult models/human/units/catapult/catapult.s2g
+skinRef DoorsWindows models/props/plaster/doors_windows.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64.s2g
+skinRef HammerMetal models/props/reference/mines/t_iron.s2g
+skinRef HammerPadding models/human/units/catapult/catapult.s2g
+skinRef HammerShaft models/human/units/catapult/catapult.s2g
+skinRef LeverCata models/human/units/catapult/catapult.s2g
+skinRef LeverWheels models/props/wooden/log_well.s2g
+skinRef Planks models/props/reference/mines/t_woodplank_02.s2g
+skinRef Plaster models/human/buildings/t_mud_wall_256x256.s2g
+skinRef Rope models/human/units/transport/ropes.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64_team2.s2g
+
+skinName team3
+skinRef BladeAxle models/human/units/catapult/catapult.s2g
+skinRef BladeCloth models/human/buildings/fanblade.s2g
+skinRef BladeRibs models/human/buildings/t_woodplank_02.s2g
+skinRef Cart models/props/tombstone_props/western/crates_plain.s2g
+skinRef CartLogWell models/props/wooden/log_well.s2g
+skinRef Catapult models/human/units/catapult/catapult.s2g
+skinRef DoorsWindows models/props/plaster/doors_windows.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64.s2g
+skinRef HammerMetal models/props/reference/mines/t_iron.s2g
+skinRef HammerPadding models/human/units/catapult/catapult.s2g
+skinRef HammerShaft models/human/units/catapult/catapult.s2g
+skinRef LeverCata models/human/units/catapult/catapult.s2g
+skinRef LeverWheels models/props/wooden/log_well.s2g
+skinRef Planks models/props/reference/mines/t_woodplank_02.s2g
+skinRef Plaster models/human/buildings/t_mud_wall_256x256.s2g
+skinRef Rope models/human/units/transport/ropes.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64.s2g
+
+skinName team4
+skinRef BladeAxle models/human/units/catapult/catapult.s2g
+skinRef BladeCloth models/human/buildings/fanblade.s2g
+skinRef BladeRibs models/human/buildings/t_woodplank_02.s2g
+skinRef Cart models/props/tombstone_props/western/crates_plain.s2g
+skinRef CartLogWell models/props/wooden/log_well.s2g
+skinRef Catapult models/human/units/catapult/catapult.s2g
+skinRef DoorsWindows models/props/plaster/doors_windows.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64.s2g
+skinRef HammerMetal models/props/reference/mines/t_iron.s2g
+skinRef HammerPadding models/human/units/catapult/catapult.s2g
+skinRef HammerShaft models/human/units/catapult/catapult.s2g
+skinRef LeverCata models/human/units/catapult/catapult.s2g
+skinRef LeverWheels models/props/wooden/log_well.s2g
+skinRef Planks models/props/reference/mines/t_woodplank_02.s2g
+skinRef Plaster models/human/buildings/t_mud_wall_256x256.s2g
+skinRef Rope models/human/units/transport/ropes.s2g
+skinRef Flag models/human/buildings/t_roof_tarp_64x64_team2.s2g

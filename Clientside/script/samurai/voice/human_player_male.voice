@@ -1,0 +1,323 @@
+//voice chats are specified first by issuing a category name, then listing individual items
+
+//syntax:
+//voiceCategory <Number> <Description>
+//voiceItem <Number> <Description>
+//voiceSound <WavFile> <ChatText>
+//voiceMore <Number> <Description> <CategoryNumber>
+//voiceFlag <team | global>
+
+//voiceSound may be specified up to 4 times for the same item (for multiple versions of the same voice chat)
+//voiceItem can be specified up to 10 times per voiceCategory
+//voiceMore allows sub menus to be specified
+//voiceFlag specifies team or global chat
+
+
+voiceDirectory /sound/samurai/units/  //base directory to look for WAV files (specify once per file)
+
+
+voiceCategory 0
+
+
+//
+// Observation
+//
+
+voiceCategory 1
+
+voiceItem 1 "Ronin spotted" 
+voiceSound 132thereareroninoverthere_1.ogg "Ronin spotted"
+voiceFlag team
+
+voiceItem 2 "Resources spotted"
+voiceSound 190resourcesspotted_1.ogg "Resources spotted"
+voiceFlag team
+
+voiceItem 3 "Enemy spotted"
+voiceSound 142enemyspotted_1.ogg "Enemy spotted"
+voiceFlag team
+
+voiceItem 4 "Enemy marksman spotted"
+voiceSound 162enemymarksmanspotted_1.ogg "Enemy Marksman spotted"
+voiceFlag team
+
+voiceItem 5 "They have constructed a Barracks!" 
+voiceSound 129theyhaveconstructedabarracks_1.ogg "They have constructed a Barracks!"
+voiceFlag team
+
+voiceItem 6 "Enemy cannon spotted"
+voiceSound 193enemycannonspotted_1.ogg "Enemy Cannon spotted"
+voiceFlag team
+
+voiceItem 7 "All clear"
+voiceSound 108allclear_1.ogg "All clear"
+voiceFlag team
+
+
+
+//
+// Basic
+//
+
+voiceCategory 2
+
+voiceItem 1 "Your orders?"
+voiceSound 106yourorders_1.ogg "Your orders?"
+
+
+voiceItem 2 "Yes!"
+voiceSound 204yes_3.ogg "Yes!"
+voiceSound 192rightaway_1.ogg "Right away!"
+voiceSound 107absolutely_1.ogg "Absolutely!"
+voiceSound 128commandunderstood_1.ogg "command understood"
+
+
+voiceItem 3 "No!"
+voiceSound 183no_1.ogg "No!"
+voiceSound 156impossible_1.ogg "Impossible!"
+
+
+voiceItem 4 "Hello!"
+voiceSound 149hello_1.ogg "Hello"
+
+
+voiceItem 5 "Thank you"
+voiceSound 197arigato_1.ogg "Thank you"
+voiceSound 197arigato_2.ogg "Thank you"
+
+
+voiceItem 6 "Help!!!"
+voiceSound 151help_1.ogg "Help!!!"
+
+
+
+voiceItem 7 "For the clan"
+voiceSound 144fortheclan_1.ogg "For the clan!"
+voiceSound 161buddhabepraised_1.ogg "Buddha be praised!"
+
+voiceItem 8 "I need healing!"
+voiceSound 173ineedhealing_1.ogg "I need healing!"
+voiceSound 174pleasehealme_1.ogg "Please heal me!"
+
+voiceItem 9 "I need a blessing!"
+voiceSound 172ineedablessing_1.ogg "I need a blessing!"
+voiceFlag team
+
+
+
+
+voiceCategory 3
+
+voiceItem 1 "Attack my target"
+voiceSound 113attackmytarget_1.ogg "Attack my target"
+voiceFlag team
+
+voiceItem 2 "Move!"
+voiceSound 165move_1.ogg "Move!"
+voiceFlag team
+
+voiceItem 3 "Follow me!"
+voiceSound 143followme_1.ogg "Follow me!"
+voiceFlag team
+
+voiceItem 4 "Cover me!"
+voiceSound 130coverme_1.ogg "Cover me!"
+voiceFlag team
+
+voiceItem 5 "Capture the spawn flag"
+voiceSound 126capturethespawnflag_1.ogg "Capture the spawn flag"
+voiceFlag team
+
+voiceItem 6 "Wait here for reinforcements"
+voiceSound 200waithereforreinforcements_1.ogg "Wait here for reinforcements"
+voiceFlag team
+
+voiceItem 7 "Your orders?"
+voiceSound 145yourordersmylord_1.ogg "Your orders my lord?"
+voiceFlag team
+
+voiceItem 8 "Be careful!"
+voiceSound 121becareful_1.ogg "Be careful!"
+voiceFlag team
+
+voiceItem 9 "Spread out!"
+voiceSound 194spreadout_1.ogg "Spread out!"
+voiceFlag team
+
+
+voiceItem 0 "Retreat!"
+voiceSound 191retreat_1.ogg "Retreat!"
+voiceFlag team
+
+
+
+voiceCategory 4
+
+voiceItem 1 "I'm fighting on offense"
+voiceSound 155imfightingonoffence_1.ogg "I'm fighting on offense"
+voiceFlag team
+
+voiceItem 2 "Attack!"
+voiceSound 109attack_1.ogg "Attack!"
+voiceFlag team
+
+voiceItem 3 "Charge!!"
+voiceSound 127charge_1.ogg "Charge!!"
+voiceFlag team
+
+voiceItem 4 "Attack their peasants!"
+voiceSound 116attackthepheasants_1.ogg "Attack their peasants!"
+voiceFlag team
+
+voiceItem 5 "Attack the enemy Command Centre"
+voiceSound 114attacktheenemycommandcentre_1.ogg "Attack the enemy Command Centre"
+voiceFlag team
+
+voiceItem 6 "Attack the enemy structure"
+voiceSound 115attacktheenemystructure_1.ogg "Attack the enemy structure"
+voiceFlag team
+
+voiceItem 7 "Protect the cannon"
+voiceSound 186protectthecannon_1.ogg "Protect the cannon"
+voiceFlag team
+
+voiceItem 8 "Protect the officer"
+voiceSound 185protecttheofficer_1.ogg "Protect the Officer"
+voiceFlag team
+
+
+voiceItem 9 "Build a Barracks here!"
+voiceSound 124buildabarrackshere_1.ogg "Build a Barracks here!"
+voiceFlag team
+
+
+voiceCategory 5
+
+voiceItem 1 "I'm on defense"
+voiceSound 154imondefence_1.ogg "I'm on defense"
+voiceFlag team
+
+voiceItem 2 "Defend the Command Centre"
+voiceSound 137defendthecommandcentre_1.ogg "Defend the Command Centre"
+voiceFlag team
+
+voiceItem 3 "Defend this structure"
+voiceSound 138defendthisstructure_1.ogg "Defend this structure"
+voiceFlag team
+
+voiceItem 4 "Defend this mine"
+voiceSound 135defendthismine_1.ogg "Defend this Mine"
+voiceFlag team
+
+voiceItem 5 "Protect the peasants"
+voiceSound 188protectthepheasants_1.ogg "Protect the peasants"
+voiceFlag team
+
+voiceItem 6 "Our peasants are under attack!"
+voiceSound 203ourpheasantsareunderattack_1.ogg "Our peasants are under attack!"
+voiceFlag team
+
+voiceItem 7 "Build defenses here"
+voiceSound 123builddefenceshere_1.ogg "Build defenses here"
+voiceFlag team
+
+voiceItem 8 "Enemy in our base"
+voiceSound 141enemyinourbase_1.ogg "Enemy in our base"
+voiceSound 119ourbaseisoverrun_1.ogg "Our base is overrun"
+voiceFlag team
+
+
+voiceItem 9 "They have destroyed a building!"
+voiceSound 139theyhavedestroyedabilding_1.ogg "They have destroyed a building!"
+voiceFlag team
+
+voiceItem 0 "Base is secure"
+voiceSound 120baseissecure_1.ogg "Base is secure"
+voiceFlag team
+
+voiceCategory 6
+
+voiceItem 1 "We have destroyed the enemy structure"
+voiceSound 140wehavedestroyedtheenemystructure_1.ogg "We have destroyed the enemy structure"
+voiceFlag team
+
+voiceItem 2 "We are attacking their Barracks!"
+voiceSound 117weareattackingthebarracks_1.ogg "We are attacking their Barracks!"
+voiceFlag team
+
+voiceItem 3 "We are damaging their Command Centre!"
+voiceSound 133wearedammagingthecommandcentre_1.ogg "We are damaging their Command Centre!"
+voiceFlag team
+
+voiceItem 4 "Their Command Centre is burning!"
+voiceSound 195theircommandcentreisburning_1.ogg "Their Command Centre is burning!"
+voiceFlag team
+
+voiceItem 5 "Their Command Centre is nearly destroyed!"
+voiceSound 169thecommandcentreisnearlydestroyed_1.ogg "Their Command Centre is nearly destroyed!"
+voiceFlag team
+
+
+
+voiceCategory 7
+
+voiceItem 1 "Bow your head!"
+voiceSound 131bowyourhead_1.ogg "Bow your head!"
+voiceFlag global
+
+
+voiceItem 2 "Yes!"
+voiceSound 204yes_2.ogg "Yes!"
+voiceSound 192rightaway_1.ogg "Right away!"
+voiceSound 107absolutely_1.ogg "Absolutely!"
+voiceSound 128commandunderstood_1.ogg "command understood"
+voiceFlag global
+
+
+voiceItem 3 "No!"
+voiceSound 183no_1.ogg "No!"
+voiceSound 156impossible_1.ogg "Impossible!"
+voiceFlag global
+
+
+voiceItem 4 "Hello!"
+voiceSound 149hello_1.ogg "Hello!"
+voiceFlag global
+
+voiceItem 5 "Thank you"
+voiceSound 197arigato_1.ogg "Thank you"
+voiceSound 197arigato_2.ogg "Thank you"
+voiceFlag global
+
+
+voiceItem 6 "Good game"
+voiceSound 146goodgame_1.ogg "Good game"
+voiceSound 146goodgame_2.ogg "Good game"
+voiceSound 146goodgame_3.ogg "Good game"
+voiceFlag global
+
+voiceItem 7 "For the clan"
+voiceSound 144fortheclan_1.ogg "For the clan!"
+voiceSound 161buddhabepraised_1.ogg "Buddha be praised!"
+voiceFlag global
+
+
+
+//
+// MAIN
+//
+
+//each voice config must have a 0 category set in order to display the initial voice chat menu
+
+voiceCategory 0
+
+voiceMore 1 "Observation" 1
+voiceMore 2 "Basic" 2
+voiceMore 3 "Tactics" 3
+voiceMore 4 "Offense" 4
+voiceMore 5 "Defense" 5
+voiceMore 6 "Battle Report" 6
+voiceMore 7 "Global" 7
+
+
+

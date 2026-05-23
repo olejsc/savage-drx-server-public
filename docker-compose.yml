@@ -1,0 +1,29 @@
+services:
+  savage-drx-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: savage-drx-server-public:local
+    container_name: savage-drx-server
+    working_dir: /opt/savage-drx
+    environment:
+      SERVER_NAME: drx-server
+      SERVER_PY_CONFIG_FILE: config_local.ini
+    command: ["./start_server.sh"]
+    ports:
+      - "11235:11235/udp"
+      - "11235:11235/tcp"
+    volumes:
+      - type: bind
+        source: C:/Users/ole_j/source/repos/savage-drx-maps
+        target: /opt/savage-drx/game/world
+      - type: bind
+        source: ./config/config_local.ini
+        target: /opt/savage-drx/config/config_local.ini
+        read_only: true
+      - type: volume
+        source: drx-data
+        target: /drx
+
+volumes:
+  drx-data:
