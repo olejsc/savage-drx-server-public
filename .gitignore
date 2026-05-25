@@ -10,6 +10,21 @@
 /game/game64.so
 /bin/*debug*
 /config/config_local.ini
+/dist/
+
+# Extracted client archive. Track only the Summoner Arc overlay manifest.
+/Clientside/**
+!/Clientside/mods/
+!/Clientside/mods/master/
+!/Clientside/mods/master/summoner_arc.cfg
+!/Clientside/gui/
+!/Clientside/gui/standard/
+!/Clientside/gui/standard/ui_game.cfg
+!/Clientside/gui/summoner_arc/
+!/Clientside/gui/summoner_arc/**
+!/Clientside/script/
+!/Clientside/script/summoner_arc/
+!/Clientside/script/summoner_arc/**
 
 # Python
 *.pyc
