@@ -227,7 +227,11 @@ def on_team_switch(uid, old_team, new_team):
 
 @log.log_debug_info
 def building_construct(uid, building_type):
-    pass
+    try:
+        import sv_rebalance_building_hp
+        sv_rebalance_building_hp.on_building_construct(uid, building_type)
+    except:
+        sh_custom_utils.get_and_log_exception_info()
 
 
 @log.log_debug_info
@@ -242,7 +246,11 @@ def building_research(uid, research_type):
 
 @log.log_debug_info
 def building_researchcomplete(uid, research_type):
-    pass
+    try:
+        import sv_rebalance_building_hp
+        sv_rebalance_building_hp.on_building_research_complete(uid, research_type)
+    except:
+        sh_custom_utils.get_and_log_exception_info()
 
 
 @log.log_debug_info

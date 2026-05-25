@@ -29,6 +29,16 @@ RUN sed -i 's/\r$//' ./*.sh \
     && cp -R game/script/summoner_arc /tmp/summoner-arc-package/script/summoner_arc \
     && (cd /tmp/summoner-arc-package && zip -qr /opt/savage-drx/game/summoner_arc.s2z mods script) \
     && rm -rf /tmp/summoner-arc-package \
+    && rm -rf /tmp/rebalance-package \
+    && mkdir -p /tmp/rebalance-package/mods/master /tmp/rebalance-package/gui/standard \
+    && cp game/mods/master/rebalance.cfg /tmp/rebalance-package/mods/master/rebalance.cfg \
+    && cp Clientside/gui/standard/ui_tithe.cfg /tmp/rebalance-package/gui/standard/ui_tithe.cfg \
+    && cp Clientside/gui/standard/frame_event.cfg /tmp/rebalance-package/gui/standard/frame_event.cfg \
+    && cp Clientside/gui/standard/frame_event.cfg /tmp/rebalance-package/frame_event.cfg \
+    && sed -i 's/\r$//' /tmp/rebalance-package/mods/master/rebalance.cfg /tmp/rebalance-package/gui/standard/ui_tithe.cfg /tmp/rebalance-package/gui/standard/frame_event.cfg /tmp/rebalance-package/frame_event.cfg \
+    && (cd /tmp/rebalance-package && zip -qr /opt/savage-drx/game/rebalance.s2z mods gui frame_event.cfg) \
+    && (cd /tmp/rebalance-package && zip -qr /opt/savage-drx/game/savage1.s2z gui frame_event.cfg) \
+    && rm -rf /tmp/rebalance-package \
     && rm -rf game/world \
     && mkdir -p game/world /drx
 
