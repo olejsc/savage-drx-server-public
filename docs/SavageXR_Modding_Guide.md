@@ -84,6 +84,20 @@ Check this list to see what you need to open these files:
 | `.str` | Stringtables. | A normal text editor. |
 | `.sndmat` | Sound material. | A normal text editor. |
 
+## Building a Client Override Archive
+
+A practical way to make a client-side mod is to treat an extracted client archive as reference material, then package only the files you want to override.
+
+1. Inspect the extracted client files under `Clientside/` or extract `savage0.s2z` into a temporary folder.
+2. Copy only the files you want to change into folder inside /clientside-mods, preserving their game-relative paths.
+   - Example: `Clientside/gui/standard/ui_game.cfg` becomes `clientside-mods/NAME_OF_MOD/gui/standard/ui_game.cfg` 
+   - Example: `Clientside/script/standard/objects/human_ballista.object` becomes `clientside-mods/NAME_OF_MOD/script/standard/objects/human_ballista.object`.
+3. Edit the copied files in the clientside-mods/NAME_OF_MOD/, not the installed game files.
+4. Zip the contents of clientside-mods/NAME_OF_MOD, not the root folder itself.
+5. Rename the zip to an `.s2z` file such as `savage1.s2z`, then place it in the client's `game/` directory and restart the client.
+
+The engine loads additional `savage*.s2z` archives on startup, so a later archive can override files from `savage0.s2z`. Keep these override archives small and focused; do not repack the entire extracted client unless that is intentional.
+
 ## What Should You Begin With?
 
 The simplest option to mod is writing binds.
