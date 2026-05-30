@@ -1,0 +1,40 @@
+# .understandignore - patterns for files/dirs to exclude from analysis
+# Syntax: same as .gitignore (globs, # comments, ! negation, trailing / for dirs)
+# Lines below are suggestions - uncomment to activate.
+# Use ! prefix to force-include something excluded by defaults.
+#
+# Built-in defaults (always excluded unless negated):
+#   node_modules/, .git/, dist/, build/, obj/, *.lock, *.min.js, etc.
+#
+# --- From .gitignore (uncomment to exclude) ---
+
+# *.iml
+# /silverback.bin
+# /game/game64.so
+# /bin/*debug*
+# /config/config_local.ini
+# /dist/
+# /Clientside/**
+# !/Clientside/mods/
+# !/Clientside/mods/master/
+# !/Clientside/mods/master/summoner_arc.cfg
+# !/Clientside/gui/
+# !/Clientside/gui/standard/
+# !/Clientside/gui/standard/ui_game.cfg
+# !/Clientside/gui/summoner_arc/
+# !/Clientside/gui/summoner_arc/**
+# !/Clientside/script/
+# !/Clientside/script/summoner_arc/
+# !/Clientside/script/summoner_arc/**
+# *.pyc
+
+# --- Detected directories (uncomment to exclude) ---
+
+# docs/
+# scripts/
+
+# --- Test file patterns (uncomment to exclude) ---
+
+# *.test.*
+# *.spec.*
+# *.snap
